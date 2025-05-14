@@ -38,7 +38,7 @@ Revisions go through four stages before they are published:
 
 -   [**Draft:**]{style="color:red;"} Contributors revise and add content.
 -   [**Editor Review:**]{style="color:orange;"} BOW editors review the completed draft and add media.
--   [**Author Review:**]{style="color:lightblue;"} Contributors respond to BOW editors’ comments and review the completed account with all media.
+-   [**Author Review:**]{style="color:lightskyblue;"} Contributors respond to BOW editors’ comments and review the completed account with all media.
 -   [**Final:**]{style="color:blue;"} BOW staff look over the author’s final changes and then publish the account.
 
 Typically, BOW urges contributors to complete the draft stage of their revision in one month (for partial revisions) or three months (for full revisions); however, the revision timeline will also reflect the constraints faced by the contributors and BOW staff, as well as the nature of the revision. In some cases, completing a full revision for a well-studied species may take six months or more.
