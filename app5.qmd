@@ -1,0 +1,45 @@
+---
+output: html_document
+editor_options: 
+  chunk_output_type: console
+---
+
+# Appendix 5: Format for References {#sec-app5 .unnumbered}
+
+x
+
+## Book {#sec-app5-book}
+
+x
+
+## Book Chapter {#sec-app5-chapter}
+
+x
+
+## Government Report {#sec-app5-government}
+
+x
+
+## Thesis or Dissertation {#sec-app5-thesis}
+
+x
+
+## Online Resource {#sec-app5-online}
+
+x
+
+## *Birds of North America* or *Birds of the World* Species Account {#sec-app5-BNA}
+
+x
+
+## Works with Editor(s) Instead of Author(s) {#sec-app5-editor}
+
+x
+
+## Author with Suffix {#sec-app5-suffix}
+
+x
+
+## Notes {#sec-app5-notes}
+
+x

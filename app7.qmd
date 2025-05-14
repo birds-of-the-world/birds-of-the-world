@@ -1,0 +1,57 @@
+---
+output: html_document
+editor_options: 
+  chunk_output_type: console
+---
+
+# Appendix 7: Media Policies and Procedures {#sec-app7 .unnumbered}
+
+x
+
+## Figures {#sec-intro-figures}
+
+x
+
+## Images {#sec-intro-images}
+
+x
+
+### Submitting Your Own Images {#sec-intro-images-own}
+
+x
+
+### Selecting Images That Are Already in the Macaulay Library {#sec-intro-images-ML}
+
+x
+
+## Audio {#sec-intro-audio}
+
+x
+
+### Submitting Your Own Audtio {#sec-intro-audio-own}
+
+x
+
+### Selecting Audio That Is Already in the Macaulay Library {#sec-intro-audio-ML}
+
+x
+
+## Video {#sec-intro-video}
+
+x
+
+### Submitting Your Own Video {#sec-intro-video-own}
+
+x
+
+### Selecting Video That Is Already in the Macaulay Library {#sec-intro-video-ML}
+
+x
+
+## Tables {#sec-intro-tables}
+
+x
+
+## Copyright and Permissions {#sec-intro-copyright}
+
+x

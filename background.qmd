@@ -1,0 +1,21 @@
+---
+output: html_document
+editor_options: 
+  chunk_output_type: console
+---
+
+# Background Information {#sec-background .unnumbered}
+
+xxx
+
+## Full and Partial Revisions {#sec-background-full}
+
+xxx
+
+## Timeline for a Revision {#sec-background-timeline}
+
+xxx
+
+## Authorship and Contributions to a Revision {#sec-background-authorship}
+
+xxx

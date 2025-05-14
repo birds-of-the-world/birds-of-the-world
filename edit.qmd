@@ -1,0 +1,31 @@
+---
+output: html_document
+editor_options: 
+  chunk_output_type: console
+---
+
+# How to Edit and Revise on the BOW Website {#sec-edit .unnumbered}
+
+## Step 1: Creating an Account {#sec-edit-one}
+
+xxx
+
+## Step 2: Accessing the BOW Website {#sec-edit-two}
+
+xxx
+
+## Step 3: Understanding the Editor Menu Bar {#sec-edit-three}
+
+xxx
+
+## Step 4: Revising the Draft Account {#sec-edit-four}
+
+xxx
+
+## Step 5: Linking and Adding References {#sec-edit-five}
+
+xxx
+
+## Step 6: Account Review and Publication {#sec-edit-six}
+
+xxx

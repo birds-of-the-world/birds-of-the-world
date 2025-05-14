@@ -1,0 +1,87 @@
+---
+output: html_document
+editor_options: 
+  chunk_output_type: console
+---
+
+# Appendix 4: Style and Formatting Conventions {#sec-app4 .unnumbered}
+
+## General {#sec-app4-general}
+
+x
+
+## Language {#sec-app4-language}
+
+x
+
+## Headings {#sec-app4-headings}
+
+x
+
+## Referring to Species {#sec-app4-species}
+
+x
+
+## Describing Vocalizations {#sec-app4-vocalizations}
+
+x
+
+## Referring to Geographic Locations {#sec-app4-geographic}
+
+x
+
+## Referring to Measures of Time {#sec-app4-time}
+
+x
+
+## Referring to Age {#sec-app4-age}
+
+x
+
+## Describing Plumages and Molts {#sec-app4-plumages}
+
+x
+
+## Numbering and Associated Issues {#sec-app4-numbering}
+
+x
+
+## Hyphens {#sec-app4-hyphens}
+
+x
+
+## Commas {#sec-app4-commas}
+
+x
+
+## Abbreviations {#sec-app4-abbreviations}
+
+x
+
+## Rare and Author-/Account-specific Abbreviations {#sec-app4-rare}
+
+x
+
+## Quotations {#sec-app4-quotations}
+
+x
+
+## Referring to Sections Elsewhere in the Account {#sec-app4-sections}
+
+x
+
+## Statistics {#sec-app4-statistics}
+
+x
+
+## Other {#sec-app4-other}
+
+x
+
+## Useful Symbols {#sec-app4-symbols}
+
+x
+
+## Commonly Used Terms {#sec-app4-terms}
+
+x

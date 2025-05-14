@@ -1,0 +1,441 @@
+---
+output: html_document
+editor_options: 
+  chunk_output_type: console
+---
+
+# Appendix 3: Descriptions of Account Pages, Sections, and Subsections {#sec-app3 .unnumbered}
+
+x
+
+## [INTRODUCTION]{style="color:purple;"} {#sec-app3-intro}
+
+x
+
+## [FIELD IDENTIFICATION]{style="color:purple;"} {#sec-app3-id}
+
+### [Field Identification (introduction)]{style="color:blue;"} {#sec-app3-id-intro}
+
+x
+
+### [Identification]{style="color:blue;"} {#sec-app3-id-id}
+
+x
+
+### [Similar Species Summary]{style="color:blue;"} {#sec-app3-id-sssum}
+
+x
+
+### [Similar Species]{style="color:blue;"} {#sec-app3-id-ss}
+
+x
+
+## [PLUMAGES, MOLTS, AND STRUCTURE]{style="color:purple;"} {#sec-app3-plumages}
+
+### [Plumages]{style="color:blue;"} {#sec-app3-plumages-plumages}
+
+x
+
+### [Molts]{style="color:blue;"} {#sec-app3-plumages-molts}
+
+x
+
+### [Bare Parts]{style="color:blue;"} {#sec-app3-plumages-bare}
+
+x
+
+### [Measurements]{style="color:blue;"} {#sec-app3-plumages-measurements}
+
+Linear Measurements
+
+x
+
+Mass
+
+x
+
+## [SYSTEMATICS]{style="color:purple;"} {#sec-app3-systematics}
+
+### [Systematics History]{style="color:blue;"} {#sec-app3-systematics-history}
+
+x
+
+### [Geographic Variation]{style="color:blue;"} {#sec-app3-systematics-geographic}
+
+x
+
+### [Subspecies]{style="color:blue;"} {#sec-app3-systematics-subspecies}
+
+x
+
+### [Related Species]{style="color:blue;"} {#sec-app3-systematics-related}
+
+x
+
+### [Hybridization]{style="color:blue;"} {#sec-app3-systematics-hybrid}
+
+x
+
+### [Fossils]{style="color:blue;"} {#sec-app3-systematics-fossils}
+
+x
+
+## [DISTRIBUTION]{style="color:purple;"} {#sec-app3-distribution}
+
+x
+
+### [Distribution (introduction)]{style="color:blue;"} {#sec-app3-distribution-intro}
+
+x
+
+Breeding Range/Nonbreeding Range
+
+x
+
+Elevational Range
+
+x
+
+Introduced Range
+
+x
+
+Extralimital Records
+
+x
+
+### [Historical Changes to the Distribution]{style="color:blue;"} {#sec-app3-distribution-historical}
+
+x
+
+## [HABITAT]{style="color:purple;"} {#sec-app3-habitat}
+
+### [Habitat (introduction)]{style="color:blue;"} {#sec-app3-habitat-intro}
+
+x
+
+### [General Habitat]{style="color:blue;"} {#sec-app3-habitat-general}
+
+x
+
+### [Habitat in Breeding Range]{style="color:blue;"} {#sec-app3-habitat-breeding}
+
+x
+
+### [Habitat in Migration]{style="color:blue;"} {#sec-app3-habitat-migration}
+
+x
+
+### [Habitat in Nonbreeding Range]{style="color:blue;"} {#sec-app3-habitat-nonbreeding}
+
+x
+
+## [MOVEMENTS AND MIGRATION]{style="color:purple;"} {#sec-app3-movements}
+
+### [Movements and Migration (introduction)]{style="color:blue;"} {#sec-app3-movements-intro}
+
+x
+
+### [Dispersal and Site Fidelity]{style="color:blue;"} {#sec-app3-movements-dispersal}
+
+x
+
+### [Nonmigratory Movements]{style="color:blue;"} {#sec-app3-movements-nomigratory}
+
+x
+
+### [Migration Overview]{style="color:blue;"} {#sec-app3-movements-overview}
+
+x
+
+### [Timing and Routes of Migration]{style="color:blue;"} {#sec-app3-movements-timing}
+
+x
+
+### [Migratory Behavior]{style="color:blue;"} {#sec-app3-movements-behavior}
+
+x
+
+### [Control and Physiology of Migration]{style="color:blue;"} {#sec-app3-movements-control}
+
+x
+
+## [DIET AND FORAGING]{style="color:purple;"} {#sec-app3-diet}
+
+x
+
+### [Diet and Foraging (introduction)]{style="color:blue;"} {#sec-app3-diet-intro}
+
+x
+
+### [Feeding]{style="color:blue;"} {#sec-app3-diet-feeding}
+
+**Microhabitat for Foraging**
+
+x
+
+**Food Capture and Consumption**
+
+x
+
+### [Diet]{style="color:blue;"} {#sec-app3-diet-diet}
+
+**Major Food Items**
+
+x
+
+**Quantitative Analysis**
+
+x
+
+### [Food Selection and Storage]{style="color:blue;"} {#sec-app3-diet-storage}
+
+x
+
+### [Nutrition and Energetics]{style="color:blue;"} {#sec-app3-diet-nutrition}
+
+x
+
+### [Metabolism and Temperature Regulation]{style="color:blue;"} {#sec-app3-diet-metabolism}
+
+x
+
+### [Drinking, Pellet Casting, and Defecation]{style="color:blue;"} {#sec-app3-diet-drinking}
+
+x
+
+## [SOUNDS AND VOCAL BEHAVIOR]{style="color:purple;"} {#sec-app3-sounds}
+
+x
+
+### [Sounds and Vocal Behavior (introduction)]{style="color:blue;"} {#sec-app3-sounds-intro}
+
+x
+
+### [Vocalizations]{style="color:blue;"} {#sec-app3-sounds-vocalizations}
+
+**Vocal Development**
+
+x
+
+**Vocal Array**
+
+x
+
+**Geographic Variation**
+
+x
+
+**Phenology**
+
+x
+
+**Daily Pattern of Vocalizing**
+
+x
+
+**Places of Vocalizing**
+
+x
+
+**Sex Differences**
+
+x
+
+**Repertoire and Delivery of Songs**
+
+x
+
+**Social Context and Presumed Functions of Vocalizations**
+
+x
+
+### [Nonvocal Sounds]{style="color:blue;"} {#sec-app3-sounds-nonvocal}
+
+x
+
+## [BEHAVIOR]{style="color:purple;"} {#sec-app3-behavior}
+
+x
+
+### [Behavior (introduction)]{style="color:blue;"} {#sec-app3-behavior-intro}
+
+x
+
+### [Locomotion]{style="color:blue;"} {#sec-app3-behavior-locomotion}
+
+x
+
+### [Self-Maintenance]{style="color:blue;"} {#sec-app3-behavior-self}
+
+x
+
+### [Agonistic Behavior]{style="color:blue;"} {#sec-app3-behavior-agonistic}
+
+x
+
+### [Sexual Behavior]{style="color:blue;"} {#sec-app3-behavior-sexual}
+
+x
+
+### [Social and Interspecific Behavior]{style="color:blue;"} {#sec-app3-behavior-social}
+
+x
+
+### [Predation]{style="color:blue;"} {#sec-app3-behavior-predation}
+
+x
+
+## [BREEDING]{style="color:purple;"} {#sec-app3-breeding}
+
+x
+
+### [Breeding (introduction)]{style="color:blue;"} {#sec-app3-breeding-intro}
+
+x
+
+### [Phenology]{style="color:blue;"} {#sec-app3-breeding-phenology}
+
+x
+
+### [Nest Site]{style="color:blue;"} {#sec-app3-breeding-site}
+
+x
+
+### [Nest]{style="color:blue;"} {#sec-app3-breeding-nest}
+
+x
+
+### [Eggs]{style="color:blue;"} {#sec-app3-breeding-eggs}
+
+x
+
+### [Incubation]{style="color:blue;"} {#sec-app3-breeding-incubation}
+
+x
+
+### [Hatching]{style="color:blue;"} {#sec-app3-breeding-hatching}
+
+x
+
+### [Young Birds]{style="color:blue;"} {#sec-app3-breeding-young}
+
+x
+
+### [Parental Care]{style="color:blue;"} {#sec-app3-breeding-parental}
+
+x
+
+### [Cooperative Breeding]{style="color:blue;"} {#sec-app3-breeding-cooperative}
+
+x
+
+### [Brood Parasitism]{style="color:blue;"} {#sec-app3-breeding-parasitism}
+
+x
+
+### [Fledgling Stage]{style="color:blue;"} {#sec-app3-breeding-fledgling}
+
+x
+
+## [DEMOGRAPHY AND POPULATIONS]{style="color:purple;"} {#sec-app3-demography}
+
+### [Demography and Populations (introduction)]{style="color:blue;"} {#sec-app3-demography-intro}
+
+x
+
+### [Measures of Breeding Activity]{style="color:blue;"} {#sec-app3-demography-measures}
+
+x
+
+### [Life Span and Survivorship]{style="color:blue;"} {#sec-app3-demography-life}
+
+x
+
+### [Pathogens and Parasites]{style="color:blue;"} {#sec-app3-demography-pathogens}
+
+x
+
+### [Causes of Mortality]{style="color:blue;"} {#sec-app3-demography-mortality}
+
+x
+
+### [Population Spatial Metrics]{style="color:blue;"} {#sec-app3-demography-spatial}
+
+x
+
+### [Population Status]{style="color:blue;"} {#sec-app3-demography-status}
+
+x
+
+### [Population Regulation]{style="color:blue;"} {#sec-app3-demography-regulation}
+
+x
+
+## [CONSERVATION AND MANAGEMENT]{style="color:purple;"} {#sec-app3-conservation}
+
+### [Conservation Status]{style="color:blue;"} {#sec-app3-conservation-status}
+
+x
+
+### [Effects of Human Activity]{style="color:blue;"} {#sec-app3-conservation-effects}
+
+x
+
+### [Management]{style="color:blue;"} {#sec-app3-conservation-management}
+
+x
+
+## [RELATIONSHIP WITH HUMANS]{style="color:purple;"} {#sec-app3-humans}
+
+### [Relationship with Humans (introduction)]{style="color:blue;"} {#sec-app3-humans-intro}
+
+x
+
+### [Vernacular Names]{style="color:blue;"} {#sec-app3-humans-vernacular}
+
+x
+
+### [Cultural, Symbolic, and Aesthetic Significance]{style="color:blue;"} {#sec-app3-humans-cultural}
+
+**Early History**
+
+x
+
+**Presence in Folklore, Religion, and Symbolism**
+
+x
+
+**Depictions in Media**
+
+x
+
+**Public Perception**
+
+x
+
+### [Economic and Utilitarian Significance]{style="color:blue;"} {#sec-app3-humans-economic}
+
+**Use by Humans**
+
+x
+
+**Harm Inflicted by Focal Species**
+
+x
+
+**Aviculture and Domestication**
+
+x
+
+**Use as a Research Model**
+
+x
+
+## [PRIORITIES FOR FUTURE RESEARCH]{style="color:purple;"} {#sec-app3-priorities}
+
+## [OTHER]{style="color:purple;"} {#sec-app3-other}
+
+## [ACKNOWLEDGMENTS]{style="color:purple;"} {#sec-app3-acknowledgments}
+
+## [ABOUT THE AUTHOR(S)]{style="color:purple;"} {#sec-app3-authors}

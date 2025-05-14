@@ -1,0 +1,29 @@
+---
+output: html_document
+editor_options: 
+  chunk_output_type: console
+---
+
+# Appendix 1: Policies and Procedures Regarding the Revision, Authorship, and Citation of BOW Species Accounts {#sec-app1 .unnumbered}
+
+xxx
+
+## 1. Versioning and Revision History {#sec-app1-versioning}
+
+xxx
+
+## 2. Authorship Policies {#sec-app1-authorship}
+
+xxx
+
+## 3. Maintaining Status as an "Active" Contributor {#sec-app1-active}
+
+xxx
+
+## 4. BOW Content Standards {#sec-app1-content}
+
+xxx
+
+### Changes to Content {#sec-app1-content-changes}
+
+xxx

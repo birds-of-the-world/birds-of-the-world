@@ -1,0 +1,1092 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Instructions for Birds of the World Contributors",
+    "section": "",
+    "text": "Version 15: Updated May 2025\n\nOverview\nThank you for volunteering to work on a Birds of the World (BOW) species account! We aim to make BOW the singular source for the collected biology of all birds of the world. This dynamic platform is made possible by merging two of the Cornell Lab’s flagship publications, Birds of North America (BNA) and Neotropical Birds (NB), with content from the renowned Handbook of the Birds of the World (HBW Alive) and Bird Families of the World, originally published by Lynx Edicions. BOW is supported with real-time data from eBird and multimedia from the Macaulay Library (which now has incorporated considerable material originally archived in the Internet Bird Collection).\nOur ultimate goal is to generate authoritative and comprehensive species accounts for each of the roughly 11,145 species of birds in the world. This guide will review the basics of revising a species account, with guidance on content, style, and format. All account revisions are expected to follow these guidelines closely for consistency, clarity, and efficiency.\nTo be involved with the BOW project, you must review and abide by the policies for authorship, conduct, and content outlined in Appendix 1. You will also need to complete a Contributor Information Form (English, Spanish). You should aim to resubmit this form every two years to maintain your status as an active contributor.\nIn a typical revision, BOW staff will grant you “author access” to a draft account that you will be able to revise on the BOW website without your changes becoming publicly viewable. This draft will contain whatever was present in the most recent version of the account. You and/or your team should combine, edit, or remove this content as you add your own new content to the account.\nWhen you have completed your revision, please fill out the Draft Completion Form (English, Spanish). BOW staff will then review the account and may request clarification, formatting, additions, or other changes. BOW staff will also add media (images, sounds, and figures and associated captions) and will fully edit and format the account as necessary. Once that is done, you will have a defined Author Review period to make any final changes to the account before it is considered ready to be published. Please endeavor to provide any final feedback you might have within this time period; once it has elapsed, the account may be published whether or not BOW staff have final confirmation from you.\nDetails about every step of the process are included in this document. Thank you for your efforts to make BOW an authoritative and dynamic resource!\nLead Editorial Team: Shawn Billerman (smb223@cornell.edu), Brooke Keeney (bkk37@cornell.edu), Fernando Medrano (fm458@cornell.edu), Nicholas Sly (nds22@cornell.edu), Maria Smith (mgs248@cornell.edu)\nThe Cornell Lab of Ornithology (http://www.birds.cornell.edu/) sponsors the BOW series and holds the copyright.",
+    "crumbs": [
+      "Overview"
+    ]
+  },
+  {
+    "objectID": "quickstart.html",
+    "href": "quickstart.html",
+    "title": "QuickStart Guide for BOW Editing and Reviewing",
+    "section": "",
+    "text": "To edit or review an account, you will be working with a draft account for your species that is not visible to the general public. The steps below are a quick guide to help you access and edit (if applicable) the draft for your account:\n\n\nNavigate to https://birdsoftheworld.org/bow/home and sign into your Cornell Lab account (if prompted). You can verify that you are signed in if you see a black silhouette of a person in the upper right of the page followed by your name and username in parentheses. Note, this should be your individual username, NOT an institutional or group name/login.\n\n\nOnce signed in, use the species search field or the taxonomic list to navigate to the species account you will be working on. The initial “Introduction” page you see when you search for your account is the “live” version of the account. The live version is not editable. You will need to access the “draft” version of the account to see or make changes.\n\n\nTo open the draft of the account to review or edit, click the orange button that reads “Version: Live - X.Y” at the top of the screen (the version number depends on how many times the account’s citable content has been updated). Select the “Draft” option from the drop-down menu.\n\n\nYou should see an orange bar across the top of the screen that says “REVISION.” That indicates that you are looking at the draft.\n\n\nTo review an account: You can navigate between pages in draft mode by using the index of articles on the left-hand side of the page or the navigation buttons at the bottom of each page. Typically, only the lead author(s) of a revision can edit the text during review; other reviewers are asked to submit their feedback as a Word document or email to the BOW staff member coordinating the review.\n\n\nTo edit an account: Click the orange button that reads “Edit Revision” that appears at the upper right of the text that you would like to edit. This will open up an online editor window. Once you open the online editor, the editing tools will be displayed in a menu bar near the top of the screen in your browser. You can hover over any of the buttons for a brief description of their functionality.\n\n\nThe white text box below the editor menu bar will show the draft version of the text. You can modify this text as necessary without affecting what people see in the live online version of the account on BOW. You can verify that you are editing the draft of the account by checking that there is an orange oval beneath the species name in the upper left corner of the editor window that says “REVISION.” Be sure to save your work using the buttons at the upper right of the screen.\n\n\nOnce you start editing and saving your changes, the live site (what the public sees) will still show the old version of the account and its associated media, but the draft pages will show your updated text.\n\n\nPlease consult the full author instructions for additional details about accessing the system, formatting, style, and anything else relevant to revising or reviewing an account. If you need further help, or have any questions, please contact Brooke Keeney (bkk37@cornell.edu) or Maria Smith (mgs248@cornell.edu).",
+    "crumbs": [
+      "QuickStart Guide for BOW Editing and Reviewing"
+    ]
+  },
+  {
+    "objectID": "quickstart.html#sec-intro-background",
+    "href": "quickstart.html#sec-intro-background",
+    "title": "QuickStart Guide for BOW Editing and Reviewing",
+    "section": "Background knowledge",
+    "text": "Background knowledge\nTo understand the code examples used throughout this guide, some knowledge of the programming language R is required. If you don’t meet this requirement, or begin to feel lost trying to understand the code used in this guide, we suggest consulting one of the excellent free resources available online for learning R. For those with little or no prior programming experience, Hands-On Programming with R is an excellent introduction. For those with some familiarity with the basics of R that want to take their skills to the next level, we suggest R for Data Science as the best resource for learning how to work with data within R.\n\nTidyverse\nThroughout this guide, we use packages from the Tidyverse, an opinionated collection of R packages designed for data science. Packages such as ggplot2, for data visualization, and dplyr, for data manipulation, are two of the most well known Tidyverse packages; however, there are many more. In the following chapters, we often use Tidyverse functions without explanation. If you encounter a function you’re unfamiliar with, consult the documentation for help (e.g. ?mutate to see help for the dplyr function mutate()). More generally, the free online guide R for Data Science by Hadley Wickham is the best introduction to working with data in R using the Tidyverse.",
+    "crumbs": [
+      "QuickStart Guide for BOW Editing and Reviewing"
+    ]
+  },
+  {
+    "objectID": "quickstart.html#sec-intro-background-pipe",
+    "href": "quickstart.html#sec-intro-background-pipe",
+    "title": "QuickStart Guide for BOW Editing and Reviewing",
+    "section": "The pipe operator",
+    "text": "The pipe operator\nThe one specific piece of syntax we cover here, because it is ubiquitous throughout this guide and unfamiliar to some, is the pipe operator |&gt;. The pipe operator takes the expression to the left of it and “pipes” it into the first argument of the expression on the right, i.e. one can replace f(x) with x |&gt; f(). The pipe makes code significantly more readable by avoiding nested function calls, reducing the need for intermediate variables, and making sequential operations read left-to-right. For example, to add a new variable to a data frame, pret.\n\n\n\n\n\n\nExercise\n\n\n\nRewrite the\n\nWorking with spatial data in R\nSome familiarity with the main spatial R packages sf and terra will be necessary to following along with this guide. The free online book Geocomputation with R is a good resource on working with spatial data in R.\n\n\nSetup\n\nData package\nThe next two chapters of this guide focus on obtaining and preparing eBird data and environmental variables for the modeling that will occur in the remaining chapters. These steps can be time consuming and laborious. If you’d like to skip straight to the analysis, download this package of prepared data. Unzipping this file should produce two directories: data/ and data-raw/. Move both these directories so they are subdirectory of your RStudio project folder. This will allow you to jump right in to the modeling and ensure that you’re using exactly the same data as was used when creating this guide. This is a good option if you don’t have a fast enough internet connection to download the eBird data.\n\n\nSoftware\nThe examples throughout this website use the programming language R [@rcoreteamLanguageEnvironmentStatistical2023] to work with eBird data. If you don’t have R installed, download it now, if you already have R, there’s a good chance you have an outdated version, so update it to the latest version now. R is updated regularly, and it is important that you have the most recent version of R to avoid headaches when installing packages. We suggest checking every couple months to see if a new version has been released.\nWe strongly encourage R users to use RStudio. RStudio is not required to follow along with this guide; however, it will make your R experience significantly better. If you don’t have RStudio, download it now, if you already have it, update it because new versions with useful additional features are regularly released.\nDue to the large size of the eBird dataset, working with it requires the Unix command-line utility AWK. You won’t need to use AWK directly, since the R package auk does this hard work for you, but you do need AWK to be installed on your computer. Linux and Mac users should already have AWK installed on their machines; however, Windows user will need to install Cygwin to gain access to AWK. Cygwin is free software that allows Windows users to use Unix tools. Cygwin should be installed in the default location (C:/cygwin/bin/gawk.exe or C:/cygwin64/bin/gawk.exe) in order for everything to work correctly. Note: there’s no need to do anything at the “Select Utilities” screen, AWK will be installed by default.\n\n\nR packages\nThe examples in this guide use a variety of R packages for accessing eBird data, working with spatial data, data processing and manipulation, and model training. To install all the packages necessary to work through this guide, run the following code:\nNote that several of the spatial packages require dependencies. If installing these packages fails, consult the instructions for installing dependencies on the sf package website. Finally, ensure all R packages are updated to their most recent versions by clicking on the Update button on the Packages tab in RStudio.\n\n\neBird data access\nAccess to the eBird database is provided via the eBird Basic Dataset (EBD) as tab-separated text files. To access the EBD, begin by creating an eBird account and signing in. Then visit the eBird Data Access page and fill out the data access request form. eBird data access is free for most uses; however, you will need to request access in order to download the EBD. Filling out the access request form allows eBird to keep track of the number of people using the data and obtain information on the applications for which the data are used.\nOnce you’ve been granted access to the EBD, you will be able to download either the entire eBird dataset or subsets for specific species, regions, or time periods. This is covered in more detail in the next chapter.\n\n\nGIS data\nThroughout this guide, we’ll be producing maps of species distributions. To provide context for these distributions, we’ll need GIS data for political boundaries. Natural Earth is the best source for a range of tightly integrated vector and raster GIS data for producing professional cartographic maps. The R package, rnaturalearth provides a convenient method for accessing these data from within R.\nThe data package mentioned in Data package contains a GeoPackage with all the necessary GIS data.",
+    "crumbs": [
+      "QuickStart Guide for BOW Editing and Reviewing"
+    ]
+  },
+  {
+    "objectID": "quickstart.html#sec-intro-setup",
+    "href": "quickstart.html#sec-intro-setup",
+    "title": "QuickStart Guide for BOW Editing and Reviewing",
+    "section": "Setup",
+    "text": "Setup\n\nData package\nThe next two chapters of this guide focus on obtaining and preparing eBird data and environmental variables for the modeling that will occur in the remaining chapters. These steps can be time consuming and laborious. If you’d like to skip straight to the analysis, download this package of prepared data. Unzipping this file should produce two directories: data/ and data-raw/. Move both these directories so they are subdirectory of your RStudio project folder. This will allow you to jump right in to the modeling and ensure that you’re using exactly the same data as was used when creating this guide. This is a good option if you don’t have a fast enough internet connection to download the eBird data.\n\n\nSoftware\nThe examples throughout this website use the programming language R [@rcoreteamLanguageEnvironmentStatistical2023] to work with eBird data. If you don’t have R installed, download it now, if you already have R, there’s a good chance you have an outdated version, so update it to the latest version now. R is updated regularly, and it is important that you have the most recent version of R to avoid headaches when installing packages. We suggest checking every couple months to see if a new version has been released.\nWe strongly encourage R users to use RStudio. RStudio is not required to follow along with this guide; however, it will make your R experience significantly better. If you don’t have RStudio, download it now, if you already have it, update it because new versions with useful additional features are regularly released.\nDue to the large size of the eBird dataset, working with it requires the Unix command-line utility AWK. You won’t need to use AWK directly, since the R package auk does this hard work for you, but you do need AWK to be installed on your computer. Linux and Mac users should already have AWK installed on their machines; however, Windows user will need to install Cygwin to gain access to AWK. Cygwin is free software that allows Windows users to use Unix tools. Cygwin should be installed in the default location (C:/cygwin/bin/gawk.exe or C:/cygwin64/bin/gawk.exe) in order for everything to work correctly. Note: there’s no need to do anything at the “Select Utilities” screen, AWK will be installed by default.\n\n\nR packages\nThe examples in this guide use a variety of R packages for accessing eBird data, working with spatial data, data processing and manipulation, and model training. To install all the packages necessary to work through this guide, run the following code:\nNote that several of the spatial packages require dependencies. If installing these packages fails, consult the instructions for installing dependencies on the sf package website. Finally, ensure all R packages are updated to their most recent versions by clicking on the Update button on the Packages tab in RStudio.\n\n\neBird data access\nAccess to the eBird database is provided via the eBird Basic Dataset (EBD) as tab-separated text files. To access the EBD, begin by creating an eBird account and signing in. Then visit the eBird Data Access page and fill out the data access request form. eBird data access is free for most uses; however, you will need to request access in order to download the EBD. Filling out the access request form allows eBird to keep track of the number of people using the data and obtain information on the applications for which the data are used.\nOnce you’ve been granted access to the EBD, you will be able to download either the entire eBird dataset or subsets for specific species, regions, or time periods. This is covered in more detail in the next chapter.\n\n\nGIS data\nThroughout this guide, we’ll be producing maps of species distributions. To provide context for these distributions, we’ll need GIS data for political boundaries. Natural Earth is the best source for a range of tightly integrated vector and raster GIS data for producing professional cartographic maps. The R package, rnaturalearth provides a convenient method for accessing these data from within R.\nThe data package mentioned in Data package contains a GeoPackage with all the necessary GIS data.",
+    "crumbs": [
+      "QuickStart Guide for BOW Editing and Reviewing"
+    ]
+  },
+  {
+    "objectID": "background.html",
+    "href": "background.html",
+    "title": "Background Information",
+    "section": "",
+    "text": "Full and Partial Revisions\nxxx\nxxx",
+    "crumbs": [
+      "Background Information"
+    ]
+  },
+  {
+    "objectID": "background.html#background-timeline",
+    "href": "background.html#background-timeline",
+    "title": "Background Information",
+    "section": "Timeline for a Revision",
+    "text": "Timeline for a Revision\nxxx",
+    "crumbs": [
+      "Background Information"
+    ]
+  },
+  {
+    "objectID": "background.html#background-authorship",
+    "href": "background.html#background-authorship",
+    "title": "Background Information",
+    "section": "Authorship and Contributions to a Revision",
+    "text": "Authorship and Contributions to a Revision\nxxx",
+    "crumbs": [
+      "Background Information"
+    ]
+  },
+  {
+    "objectID": "checklist.html",
+    "href": "checklist.html",
+    "title": "Draft Submission Checklist",
+    "section": "",
+    "text": "English\nBefore submitting the Draft Completion Form (English, Spanish), please ensure that you do the following:",
+    "crumbs": [
+      "Draft Submission Checklist"
+    ]
+  },
+  {
+    "objectID": "checklist.html#checklist-es",
+    "href": "checklist.html#checklist-es",
+    "title": "Draft Submission Checklist",
+    "section": "Español",
+    "text": "Español\nin progress",
+    "crumbs": [
+      "Draft Submission Checklist"
+    ]
+  },
+  {
+    "objectID": "content.html",
+    "href": "content.html",
+    "title": "Account Content",
+    "section": "",
+    "text": "Overview\nxxx",
+    "crumbs": [
+      "Account Content"
+    ]
+  },
+  {
+    "objectID": "content.html#content-sources",
+    "href": "content.html#content-sources",
+    "title": "Account Content",
+    "section": "Sources of Information",
+    "text": "Sources of Information\nxxx",
+    "crumbs": [
+      "Account Content"
+    ]
+  },
+  {
+    "objectID": "content.html#content-structure",
+    "href": "content.html#content-structure",
+    "title": "Account Content",
+    "section": "Account Structure and Organization",
+    "text": "Account Structure and Organization\nxxx",
+    "crumbs": [
+      "Account Content"
+    ]
+  },
+  {
+    "objectID": "content.html#content-grammar",
+    "href": "content.html#content-grammar",
+    "title": "Account Content",
+    "section": "Grammar and Formatting",
+    "text": "Grammar and Formatting\n\nGrammar, Punctuation, and Style\nxxx\n\n\nReferences/Citations\nxxx",
+    "crumbs": [
+      "Account Content"
+    ]
+  },
+  {
+    "objectID": "content.html#sec-content-sources",
+    "href": "content.html#sec-content-sources",
+    "title": "Account Content",
+    "section": "Sources of Information",
+    "text": "Sources of Information\nxxx",
+    "crumbs": [
+      "Account Content"
+    ]
+  },
+  {
+    "objectID": "content.html#sec-content-structure",
+    "href": "content.html#sec-content-structure",
+    "title": "Account Content",
+    "section": "Account Structure and Organization",
+    "text": "Account Structure and Organization\nxxx",
+    "crumbs": [
+      "Account Content"
+    ]
+  },
+  {
+    "objectID": "content.html#sec-content-grammar",
+    "href": "content.html#sec-content-grammar",
+    "title": "Account Content",
+    "section": "Grammar and Formatting",
+    "text": "Grammar and Formatting\n\nGrammar, Punctuation, and Style\nxxx\n\n\nReferences/Citations\nxxx",
+    "crumbs": [
+      "Account Content"
+    ]
+  },
+  {
+    "objectID": "checklist.html#sec-checklist-es",
+    "href": "checklist.html#sec-checklist-es",
+    "title": "Draft Submission Checklist",
+    "section": "Español",
+    "text": "Español\nAntes de enviar el Formulario de finalización del primer borrador de ficha BOW (English, Español), por favor asegurarse de lo siguiente:\n\nSi se está completando una revisión completa, intentar incluir información en todas las secciones de la ficha (véase Appendix 2 para una lista de las secciones y Appendix 3 para una guía de cada sección).\nChequear las Referencias Adicionales, en la página de “References,” la cual podría tener artículos y otros que podrías haber omitido durante la búsqueda bibliográfica. Esto es especialmente para fichas del HBW, pues estas no incluían una revisión exhaustiva de la literatura.\nCitar todas las oraciones con un “reference tag” (véase Step 5: Linking and Adding References), o añada una nota de si la fuente es información no publicada, una observación personal, una comunicación personal, o una observación de eBird o similar (véase References/Citations).\n\nExcepción: Evitar usar referencias en la Introducción a menos que se esté incluyendo una cita textual o si no está incluido en otras secciones de la ficha.\nSi no hay información disponible sobre el tópico, añadir “Information needed.”\nSi estás preparando una revisión completa, pero no evaluarse una sección, por favor anotar “Esta sección no fue actualizada.”\n\nFormatear todas las referencias nuevas añadidas al estilo de BOW (véase Appendix 5). \nEscanee la Literatura Citada en la página de referencias para buscar referencias duplicadas (ordenar alfabéticamente es útil) y reemplace en el texto de la ficha para dejar solo una referencia (véase Step 5: Linking and Adding References).\nAsegurarse de que los títulos no están con negritas (e.g., texto formateado como Heading 1 o Heading 2).\nUsar “species tags” para todas las referencias a nombres de aves (véase Referring to Species).\n\nPara la especie focal, usar el nombre común solamente (excepto cuando se use el nombre científico sea útil, como en la sección de “Systematics”).\nPara especies que no sean la especie focal, proveer el nombre común y científico y linkear a la ficha BOW de esa especie la primera vez que la especie sea mencionada en cada sección. Para menciones subsecuentes de la especie en la misma sección, utilizar solamente el nombre común. Para páginas cortas, proveer el nombre científico solo la primera vez en toda la página (más que en cada sección).\n\nNo usar una s o ’s después de un “species” para dar un nombre plural o posesivo, respectivamente. Nuestro proceso de traducción automática no puede lidiar con esto. En vez de ello, replantee la oración para usar el nombre singular.\nAsegurarse que la especie focal es mencionada al inicio de cada página. Evitar iniciar una página o sección con “It,” pues debiese quedar claro que “it” se refiere a la especie focal.\nUsar minúsculas en nombres comunes de especies no aviares (pero colocar los nombres propios en general con mayúsculas, e.g., Central American, European).\nAsegurarse de que la primera sección de cada página (i.e., la sección que no tiene un título y que dice  “(introduction)” en el Appendix 2) provee un resumen general de la información de la página, sin repetir los detalles específicos. Evitar las citas en la sección, a menos que se provea información que no esté en otras partes de la página (aunque estos casos debiesen ser excepcionales).\nPara toda la información cuantitativa, especifique qué medidas son las que provee (e.g., mean, median, SD o SE) o el cómo la medida fue tomada (e.g., culmen expuesto). Cualquier número seguido de un símbolo “±” necesita ser especificado como SD o SE (e.g., 121.4 mm ± 1.02 SE). Si esta información no está reportada en la fuente original, indicar que no está especificada.\nVerifica que cualquier figura, media o tablas fueron preparadas con los estándares de BOW (véase Appendix 7). \n\nSi alguna parte del borrador fue publicada previamente en otro contexto, por favor asegurarse de tener permisos para republicarlos (e.g., figuras).\n\nChequear todos los enlaces y remover cualquiera que no esté funcionando actualmente.\nSeguir convenciones del American English para deletrear (e.g., gray en vez de grey) y puntuación (e.g., usar la “coma de Oxford”) (véase Appendix 4).\nUsar oraciones de un largo razonable, que permitan una lectura fácil.\nLeer el borrador, chequeando gramática, y que todas las referencias estén correctas.\nFinaliza el orden sugerido de la autoría (el cual será especificado en el Formulario).\nVerifica que todos los autores y autoras hayan enviado de forma reciente (en los últimos dos años) el acuerdo de contribución a Birds of the World.\nRellenar y enviar el Formulario de finalización del primer borrador de ficha BOW.",
+    "crumbs": [
+      "Draft Submission Checklist"
+    ]
+  },
+  {
+    "objectID": "background.html#sec-background-timeline",
+    "href": "background.html#sec-background-timeline",
+    "title": "Background Information",
+    "section": "Timeline for a Revision",
+    "text": "Timeline for a Revision\nxxx",
+    "crumbs": [
+      "Background Information"
+    ]
+  },
+  {
+    "objectID": "background.html#sec-background-authorship",
+    "href": "background.html#sec-background-authorship",
+    "title": "Background Information",
+    "section": "Authorship and Contributions to a Revision",
+    "text": "Authorship and Contributions to a Revision\nxxx",
+    "crumbs": [
+      "Background Information"
+    ]
+  },
+  {
+    "objectID": "edit.html",
+    "href": "edit.html",
+    "title": "How to Edit and Revise on the BOW Website",
+    "section": "",
+    "text": "Step 1: Creating an Account\nxxx",
+    "crumbs": [
+      "How to Edit and Revise on the BOW Website"
+    ]
+  },
+  {
+    "objectID": "edit.html#sec-edit-two",
+    "href": "edit.html#sec-edit-two",
+    "title": "How to Edit and Revise on the BOW Website",
+    "section": "Step 2: Accessing the BOW Website",
+    "text": "Step 2: Accessing the BOW Website\nxxx",
+    "crumbs": [
+      "How to Edit and Revise on the BOW Website"
+    ]
+  },
+  {
+    "objectID": "edit.html#sec-edit-three",
+    "href": "edit.html#sec-edit-three",
+    "title": "How to Edit and Revise on the BOW Website",
+    "section": "Step 3: Understanding the Editor Menu Bar",
+    "text": "Step 3: Understanding the Editor Menu Bar\nxxx",
+    "crumbs": [
+      "How to Edit and Revise on the BOW Website"
+    ]
+  },
+  {
+    "objectID": "edit.html#sec-edit-four",
+    "href": "edit.html#sec-edit-four",
+    "title": "How to Edit and Revise on the BOW Website",
+    "section": "Step 4: Revising the Draft Account",
+    "text": "Step 4: Revising the Draft Account\nxxx",
+    "crumbs": [
+      "How to Edit and Revise on the BOW Website"
+    ]
+  },
+  {
+    "objectID": "edit.html#sec-edit-five",
+    "href": "edit.html#sec-edit-five",
+    "title": "How to Edit and Revise on the BOW Website",
+    "section": "Step 5: Linking and Adding References",
+    "text": "Step 5: Linking and Adding References\nxxx",
+    "crumbs": [
+      "How to Edit and Revise on the BOW Website"
+    ]
+  },
+  {
+    "objectID": "edit.html#sec-edit-six",
+    "href": "edit.html#sec-edit-six",
+    "title": "How to Edit and Revise on the BOW Website",
+    "section": "Step 6: Account Review and Publication",
+    "text": "Step 6: Account Review and Publication\nxxx",
+    "crumbs": [
+      "How to Edit and Revise on the BOW Website"
+    ]
+  },
+  {
+    "objectID": "app1.html",
+    "href": "app1.html",
+    "title": "Appendix 1: Policies and Procedures Regarding the Revision, Authorship, and Citation of BOW Species Accounts",
+    "section": "",
+    "text": "1. Versioning and Revision History\nxxx\nxxx",
+    "crumbs": [
+      "Appendix 1: Policies and Procedures Regarding the Revision, Authorship, and Citation of BOW Species Accounts"
+    ]
+  },
+  {
+    "objectID": "app1.html#sec-app1-authorship",
+    "href": "app1.html#sec-app1-authorship",
+    "title": "Appendix 1: Policies and Procedures Regarding the Revision, Authorship, and Citation of BOW Species Accounts",
+    "section": "2. Authorship Policies",
+    "text": "2. Authorship Policies\nxxx",
+    "crumbs": [
+      "Appendix 1: Policies and Procedures Regarding the Revision, Authorship, and Citation of BOW Species Accounts"
+    ]
+  },
+  {
+    "objectID": "app1.html#sec-app1-active",
+    "href": "app1.html#sec-app1-active",
+    "title": "Appendix 1: Policies and Procedures Regarding the Revision, Authorship, and Citation of BOW Species Accounts",
+    "section": "3. Maintaining Status as an “Active” Contributor",
+    "text": "3. Maintaining Status as an “Active” Contributor\nxxx",
+    "crumbs": [
+      "Appendix 1: Policies and Procedures Regarding the Revision, Authorship, and Citation of BOW Species Accounts"
+    ]
+  },
+  {
+    "objectID": "app1.html#sec-app1-content",
+    "href": "app1.html#sec-app1-content",
+    "title": "Appendix 1: Policies and Procedures Regarding the Revision, Authorship, and Citation of BOW Species Accounts",
+    "section": "4. BOW Content Standards",
+    "text": "4. BOW Content Standards\nxxx\n\nChanges to Content\nxxx",
+    "crumbs": [
+      "Appendix 1: Policies and Procedures Regarding the Revision, Authorship, and Citation of BOW Species Accounts"
+    ]
+  },
+  {
+    "objectID": "app2.html",
+    "href": "app2.html",
+    "title": "Appendix 2: Standard Account Pages, Sections, and Subsections",
+    "section": "",
+    "text": "INTRODUCTION\nxxx",
+    "crumbs": [
+      "Appendix 2: Standard Account Pages, Sections, and Subsections"
+    ]
+  },
+  {
+    "objectID": "app2.html#field-identification-sec-app2-id",
+    "href": "app2.html#field-identification-sec-app2-id",
+    "title": "Appendix 2: Standard Account Pages, Sections, and Subsections",
+    "section": "FIELD IDENTIFICATION {sec-app2-id}",
+    "text": "FIELD IDENTIFICATION {sec-app2-id}\n\nField Identification (introduction)\nIdentification\nSimilar Species Summary\nSimilar Species\n\nPLUMAGES, MOLTS, AND STRUCTURE\n\nPlumages\n\nNatal Down\nJuvenile\nAdult\n\nMolts\nBare Parts\n\nBill and Gape\nIris\nFacial Skin\nTarsi and Toes\n\nMeasurements\n\nLinear Measurements\nMass\nWing Area, Wing Aspect Ratio, and Wing Loading\n\n\nSYSTEMATICS\n\nSystematics History\nGeographic Variation\nSubspecies\nRelated Species\nHybridization\nFossils\n\nDISTRIBUTION\n\nDistribution (introduction)\n\nBreeding Range\nNonbreeding Range\nElevational Range\nIntroduced Range\nExtralimital Records\n\nHistorical Changes to the Distribution\n\nHABITAT\n\nHabitat (introduction)\nGeneral Habitat\nHabitat in Breeding Range\nHabitat in Migration\nHabitat in Nonbreeding Range\n\nMOVEMENTS AND MIGRATION\n\nMovements and Migration (introduction)\nDispersal and Site Fidelity\n\nNatal Philopatry and Dispersal\nAdult Fidelity to Breeding Site and Dispersal\nFidelity to Nonbreeding Home Range\n\nNonmigratory Movements\nMigration Overview\nTiming and Routes of Migration\n\nPostbreeding\nPrebreeding\n\nMigratory Behavior\n\nDaily Timing of Migration\nFidelity to Migratory Routes\nFidelity to Stopover Sites\nMovement Behavior During Stopover\nDuration of Stopover Period\nDuration of Migratory Period\n\nControl and Physiology of Migration\n\nDIET AND FORAGING\n\nDiet and Foraging (introduction)\nFeeding\n\nMicrohabitat for Foraging\nFood Capture and Consumption\n\nDiet\n\nMajor Food Items\nQuantitative Analysis\n\nFood Selection and Storage\nNutrition and Energetics\nMetabolism and Temperature Regulation\nDrinking, Pellet Casting, and Defecation\n\nSOUNDS AND VOCAL BEHAVIOR\n\nSounds and Vocal Behavior (introduction)\nVocalizations\n\nVocal Development\nVocal Array\n\nSongs\nCalls\n\nGeographic Variation\nPhenology\nDaily Pattern of Vocalizing\nPlaces of Vocalizing\nSex Differences\nRepertoire and Delivery of Songs\nSocial Context and Presumed Functions of Vocalizations\n\nNonvocal Sounds\n\nBEHAVIOR\n\nBehavior (introduction)\nLocomotion\n\nPosture and Body Movements\nWalking, Running, Hopping, and Climbing\nFlight\nSwimming and Diving\n\nSelf-Maintenance\n\nPreening, Head Scratching, Stretching, Sunbathing, Bathing, and Anting\nRoosting and Sleeping\nDaily Time Budget\n\nAgonistic Behavior\n\nPhysical and Communicative Interactions\nTerritorial Behavior\n\nSexual Behavior\n\nMating System and Operational Sex Ratio\nCourtship, Copulation, and Pair Bond\nExtrapair Mating Behavior/Paternity\n\nSocial and Interspecific Behavior\n\nDegree of Sociality\nPlay\nNonpredatory Interspecific Interactions\n\nPredation\n\nTypes of Predators\nManner of Depredation\nResponse to Predators\n\n\nBREEDING\n\nBreeding (introduction)\nPhenology\nPair Formation\nNest Building\nFirst Brood\nSecond/Later Broods\nNest Site\nSelection Process\nSite Characteristics\nNest\nConstruction Process\nStructure and Composition\nDimensions\nMicroclimate\nMaintenance or Reuse of Nests\nNonbreeding Nests\nEggs\nShape\nSize\nMass\nEggshell Thickness\nColor and Surface Texture\nClutch Size\nEgg Laying\nIncubation\nOnset of Broodiness and Incubation in Relation to Laying\nIncubation Patches\nIncubation Period\nParental Behavior\nHardiness of Eggs Against Temperature Stress\nHatching\nPreliminary Events and Vocalizations\nShell Breaking and Emergence\nHatching Synchrony\nParental Assistance and Disposal of Eggshells\nYoung Birds\nCondition at Hatching\nGrowth and Development\nSex Ratios and Sex Allocation\nParental Care\nBrooding\nFeeding\nNest Sanitation\nNest Defense\nCarrying of Eggs or Young\nCooperative Breeding\nBrood Parasitism\nBrood Parasitism of Conspecifics\nBrood Parasitism of Other Species\nBrood Parasitism by Other Species\nIdentity of the Parasitic Species\nFrequency of Occurrence\nSeasonal or Geographic Variation\nTiming of Laying in Relation to Host’s Laying\nResponse to Parasitic Female, Eggs, or Nestlings\nEffects of Parasitism on Host\nSuccess of Parasite with This Host\nFledgling Stage\nDeparture from the Nest\nGrowth\nAssociation with Parents or Other Young\nAbility to Get Around, Feed, and Care for Self\nBehavior After Independence\nDEMOGRAPHY AND POPULATIONS\nDemography and Populations (introduction)\nMeasures of Breeding Activity\nAge at First Breeding\nIntervals Between Breeding\nClutch Size and Number of Clutches per Season\nAnnual and Lifetime Reproductive Success\nNumber of Broods Normally Reared per Season\nProportion of Total Females That Rear at Least One Brood to Nest Leaving\nLife Span and Survivorship\nPathogens and Parasites\nPathogens\nParasites\nCauses of Mortality\nExposure\nPredation\nDisease\nDirect Human Impacts\nPopulation Spatial Metrics\nIndividual Distance\nTerritory Size\nHome Range Size\nDensity\nPopulation Status\nNumbers\nTrends\nPopulation Regulation\nCONSERVATION AND MANAGEMENT\nConservation Status\nGlobal Assessment\nRegional Assessments\nEffects of Human Activity\nHabitat Loss and Degradation\nClimate Change\nNoise and Light Pollution\nEffects of Invasive Species\nHunting, Trapping, and Bycatch\nPesticides and Other Contaminants/Toxics\nCollisions with Structures or Objects\nOther Human or Research Impacts\nManagement\nConservation Areas\nConservation Measures and Habitat Management\nEffectiveness of Measures\nRELATIONSHIP WITH HUMANS\nRelationship with Humans (introduction)\nVernacular Names\nCultural, Symbolic, and Aesthetic Significance\nEarly History\nPresence in Folklore, Religion, and Symbolism\nDepictions in Media\nPublic Perception\nEconomic and Utilitarian Significance\nUse by Humans\nHarm Inflicted by Focal Species\nAviculture and Domestication\nUse as a Research Model\nPRIORITIES FOR FUTURE RESEARCH\nOTHER\nACKNOWLEDGMENTS\nABOUT THE AUTHOR(S)",
+    "crumbs": [
+      "Appendix 2: Standard Account Pages, Sections, and Subsections"
+    ]
+  },
+  {
+    "objectID": "app2.html#sec-app2-id",
+    "href": "app2.html#sec-app2-id",
+    "title": "Appendix 2: Standard Account Pages, Sections, and Subsections",
+    "section": "FIELD IDENTIFICATION",
+    "text": "FIELD IDENTIFICATION\n\nField Identification (introduction)\nIdentification\nSimilar Species Summary\nSimilar Species",
+    "crumbs": [
+      "Appendix 2: Standard Account Pages, Sections, and Subsections"
+    ]
+  },
+  {
+    "objectID": "app2.html#sec-app2-plumages",
+    "href": "app2.html#sec-app2-plumages",
+    "title": "Appendix 2: Standard Account Pages, Sections, and Subsections",
+    "section": "PLUMAGES, MOLTS, AND STRUCTURE",
+    "text": "PLUMAGES, MOLTS, AND STRUCTURE\n\nPlumages\n\nNatal Down\nJuvenile\nAdult\n\nMolts\nBare Parts\n\nBill and Gape\nIris\nFacial Skin\nTarsi and Toes\n\nMeasurements\n\nLinear Measurements\nMass\nWing Area, Wing Aspect Ratio, and Wing Loading",
+    "crumbs": [
+      "Appendix 2: Standard Account Pages, Sections, and Subsections"
+    ]
+  },
+  {
+    "objectID": "app2.html#sec-app2-systematics",
+    "href": "app2.html#sec-app2-systematics",
+    "title": "Appendix 2: Standard Account Pages, Sections, and Subsections",
+    "section": "SYSTEMATICS",
+    "text": "SYSTEMATICS\n\nSystematics History\nGeographic Variation\nSubspecies\nRelated Species\nHybridization\nFossils",
+    "crumbs": [
+      "Appendix 2: Standard Account Pages, Sections, and Subsections"
+    ]
+  },
+  {
+    "objectID": "app2.html#sec-app2-distribution",
+    "href": "app2.html#sec-app2-distribution",
+    "title": "Appendix 2: Standard Account Pages, Sections, and Subsections",
+    "section": "DISTRIBUTION",
+    "text": "DISTRIBUTION\n\nDistribution (introduction)\n\nBreeding Range\nNonbreeding Range\nElevational Range\nIntroduced Range\nExtralimital Records\n\nHistorical Changes to the Distribution",
+    "crumbs": [
+      "Appendix 2: Standard Account Pages, Sections, and Subsections"
+    ]
+  },
+  {
+    "objectID": "app2.html#sec-app2-habitat",
+    "href": "app2.html#sec-app2-habitat",
+    "title": "Appendix 2: Standard Account Pages, Sections, and Subsections",
+    "section": "HABITAT",
+    "text": "HABITAT\n\nHabitat (introduction)\nGeneral Habitat\nHabitat in Breeding Range\nHabitat in Migration\nHabitat in Nonbreeding Range",
+    "crumbs": [
+      "Appendix 2: Standard Account Pages, Sections, and Subsections"
+    ]
+  },
+  {
+    "objectID": "app2.html#sec-app2-movements",
+    "href": "app2.html#sec-app2-movements",
+    "title": "Appendix 2: Standard Account Pages, Sections, and Subsections",
+    "section": "MOVEMENTS AND MIGRATION",
+    "text": "MOVEMENTS AND MIGRATION\n\nMovements and Migration (introduction)\nDispersal and Site Fidelity\n\nNatal Philopatry and Dispersal\nAdult Fidelity to Breeding Site and Dispersal\nFidelity to Nonbreeding Home Range\n\nNonmigratory Movements\nMigration Overview\nTiming and Routes of Migration\n\nPostbreeding\nPrebreeding\n\nMigratory Behavior\n\nDaily Timing of Migration\nFidelity to Migratory Routes\nFidelity to Stopover Sites\nMovement Behavior During Stopover\nDuration of Stopover Period\nDuration of Migratory Period\n\nControl and Physiology of Migration",
+    "crumbs": [
+      "Appendix 2: Standard Account Pages, Sections, and Subsections"
+    ]
+  },
+  {
+    "objectID": "app2.html#sec-app2-sounds",
+    "href": "app2.html#sec-app2-sounds",
+    "title": "Appendix 2: Standard Account Pages, Sections, and Subsections",
+    "section": "SOUNDS AND VOCAL BEHAVIOR",
+    "text": "SOUNDS AND VOCAL BEHAVIOR\n\nSounds and Vocal Behavior (introduction)\nVocalizations\n\nVocal Development\nVocal Array\n\nSongs\nCalls\n\nGeographic Variation\nPhenology\nDaily Pattern of Vocalizing\nPlaces of Vocalizing\nSex Differences\nRepertoire and Delivery of Songs\nSocial Context and Presumed Functions of Vocalizations\n\nNonvocal Sounds",
+    "crumbs": [
+      "Appendix 2: Standard Account Pages, Sections, and Subsections"
+    ]
+  },
+  {
+    "objectID": "app2.html#sec-app2-behavior",
+    "href": "app2.html#sec-app2-behavior",
+    "title": "Appendix 2: Standard Account Pages, Sections, and Subsections",
+    "section": "BEHAVIOR",
+    "text": "BEHAVIOR\n\nBehavior (introduction)\nLocomotion\n\nPosture and Body Movements\nWalking, Running, Hopping, and Climbing\nFlight\nSwimming and Diving\n\nSelf-Maintenance\n\nPreening, Head Scratching, Stretching, Sunbathing, Bathing, and Anting\nRoosting and Sleeping\nDaily Time Budget\n\nAgonistic Behavior\n\nPhysical and Communicative Interactions\nTerritorial Behavior\n\nSexual Behavior\n\nMating System and Operational Sex Ratio\nCourtship, Copulation, and Pair Bond\nExtrapair Mating Behavior/Paternity\n\nSocial and Interspecific Behavior\n\nDegree of Sociality\nPlay\nNonpredatory Interspecific Interactions\n\nPredation\n\nTypes of Predators\nManner of Depredation\nResponse to Predators",
+    "crumbs": [
+      "Appendix 2: Standard Account Pages, Sections, and Subsections"
+    ]
+  },
+  {
+    "objectID": "app2.html#sec-app2-breeding",
+    "href": "app2.html#sec-app2-breeding",
+    "title": "Appendix 2: Standard Account Pages, Sections, and Subsections",
+    "section": "BREEDING",
+    "text": "BREEDING\n\nBreeding (introduction)\nPhenology\n\nPair Formation\nNest Building\nFirst Brood\nSecond/Later Broods\n\nNest Site\n\nSelection Process\nSite Characteristics\n\nNest\n\nConstruction Process\nStructure and Composition\nDimensions\nMicroclimate\nMaintenance or Reuse of Nests\nNonbreeding Nests\n\nEggs\n\nShape\nSize\nMass\nEggshell Thickness\nColor and Surface Texture\nClutch Size\nEgg Laying\n\nIncubation\n\nOnset of Broodiness and Incubation in Relation to Laying\nIncubation Patches\nIncubation Period\nParental Behavior\nHardiness of Eggs Against Temperature Stress\n\nHatching\n\nPreliminary Events and Vocalizations\nShell Breaking and Emergence\nHatching Synchrony\nParental Assistance and Disposal of Eggshells\n\nYoung Birds\n\nCondition at Hatching\nGrowth and Development\nSex Ratios and Sex Allocation\n\nParental Care\n\nBrooding\nFeeding\nNest Sanitation\nNest Defense\nCarrying of Eggs or Young\n\nCooperative Breeding\nBrood Parasitism\n\nBrood Parasitism of Conspecifics\nBrood Parasitism of Other Species\nBrood Parasitism by Other Species\n\nIdentity of the Parasitic Species\nFrequency of Occurrence\nSeasonal or Geographic Variation\nTiming of Laying in Relation to Host’s Laying\nResponse to Parasitic Female, Eggs, or Nestlings\nEffects of Parasitism on Host\nSuccess of Parasite with This Host\n\n\nFledgling Stage\n\nDeparture from the Nest\nGrowth\nAssociation with Parents or Other Young\nAbility to Get Around, Feed, and Care for Self\nBehavior After Independence",
+    "crumbs": [
+      "Appendix 2: Standard Account Pages, Sections, and Subsections"
+    ]
+  },
+  {
+    "objectID": "app2.html#sec-app2-diet",
+    "href": "app2.html#sec-app2-diet",
+    "title": "Appendix 2: Standard Account Pages, Sections, and Subsections",
+    "section": "DIET AND FORAGING",
+    "text": "DIET AND FORAGING\n\nDiet and Foraging (introduction)\nFeeding\n\nMicrohabitat for Foraging\nFood Capture and Consumption\n\nDiet\n\nMajor Food Items\nQuantitative Analysis\n\nFood Selection and Storage\nNutrition and Energetics\nMetabolism and Temperature Regulation\nDrinking, Pellet Casting, and Defecation",
+    "crumbs": [
+      "Appendix 2: Standard Account Pages, Sections, and Subsections"
+    ]
+  },
+  {
+    "objectID": "app2.html#sec-app2-demography",
+    "href": "app2.html#sec-app2-demography",
+    "title": "Appendix 2: Standard Account Pages, Sections, and Subsections",
+    "section": "DEMOGRAPHY AND POPULATIONS",
+    "text": "DEMOGRAPHY AND POPULATIONS\n\nDemography and Populations (introduction)\nMeasures of Breeding Activity\n\nAge at First Breeding\nIntervals Between Breeding\nClutch Size and Number of Clutches per Season\nAnnual and Lifetime Reproductive Success\nNumber of Broods Normally Reared per Season\nProportion of Total Females That Rear at Least One Brood to Nest Leaving\n\nLife Span and Survivorship\nPathogens and Parasites\n\nPathogens\nParasites\n\nCauses of Mortality\n\nExposure\nPredation\nDisease\nDirect Human Impacts\n\nPopulation Spatial Metrics\n\nIndividual Distance\nTerritory Size\nHome Range Size\nDensity\n\nPopulation Status\n\nNumbers\nTrends\n\nPopulation Regulation",
+    "crumbs": [
+      "Appendix 2: Standard Account Pages, Sections, and Subsections"
+    ]
+  },
+  {
+    "objectID": "app2.html#sec-app2-conservation",
+    "href": "app2.html#sec-app2-conservation",
+    "title": "Appendix 2: Standard Account Pages, Sections, and Subsections",
+    "section": "CONSERVATION AND MANAGEMENT",
+    "text": "CONSERVATION AND MANAGEMENT\n\nConservation Status\n\nGlobal Assessment\nRegional Assessments\n\nEffects of Human Activity\n\nHabitat Loss and Degradation\nClimate Change\nNoise and Light Pollution\nEffects of Invasive Species\nHunting, Trapping, and Bycatch\nPesticides and Other Contaminants/Toxics\nCollisions with Structures or Objects\nOther Human or Research Impacts\n\nManagement\n\nConservation Areas\nConservation Measures and Habitat Management\nEffectiveness of Measures",
+    "crumbs": [
+      "Appendix 2: Standard Account Pages, Sections, and Subsections"
+    ]
+  },
+  {
+    "objectID": "app2.html#sec-app2-humans",
+    "href": "app2.html#sec-app2-humans",
+    "title": "Appendix 2: Standard Account Pages, Sections, and Subsections",
+    "section": "RELATIONSHIP WITH HUMANS",
+    "text": "RELATIONSHIP WITH HUMANS\n\nRelationship with Humans (introduction)\nVernacular Names\nCultural, Symbolic, and Aesthetic Significance\n\nEarly History\nPresence in Folklore, Religion, and Symbolism\nDepictions in Media\nPublic Perception\n\nEconomic and Utilitarian Significance\n\nUse by Humans\nHarm Inflicted by Focal Species\nAviculture and Domestication\nUse as a Research Model",
+    "crumbs": [
+      "Appendix 2: Standard Account Pages, Sections, and Subsections"
+    ]
+  },
+  {
+    "objectID": "app2.html#sec-app2-priorities",
+    "href": "app2.html#sec-app2-priorities",
+    "title": "Appendix 2: Standard Account Pages, Sections, and Subsections",
+    "section": "PRIORITIES FOR FUTURE RESEARCH",
+    "text": "PRIORITIES FOR FUTURE RESEARCH",
+    "crumbs": [
+      "Appendix 2: Standard Account Pages, Sections, and Subsections"
+    ]
+  },
+  {
+    "objectID": "app2.html#sec-app2-other",
+    "href": "app2.html#sec-app2-other",
+    "title": "Appendix 2: Standard Account Pages, Sections, and Subsections",
+    "section": "OTHER",
+    "text": "OTHER",
+    "crumbs": [
+      "Appendix 2: Standard Account Pages, Sections, and Subsections"
+    ]
+  },
+  {
+    "objectID": "app2.html#sec-app2-acknowledgments",
+    "href": "app2.html#sec-app2-acknowledgments",
+    "title": "Appendix 2: Standard Account Pages, Sections, and Subsections",
+    "section": "ACKNOWLEDGMENTS",
+    "text": "ACKNOWLEDGMENTS",
+    "crumbs": [
+      "Appendix 2: Standard Account Pages, Sections, and Subsections"
+    ]
+  },
+  {
+    "objectID": "app2.html#sec-app2-authors",
+    "href": "app2.html#sec-app2-authors",
+    "title": "Appendix 2: Standard Account Pages, Sections, and Subsections",
+    "section": "ABOUT THE AUTHOR(S)",
+    "text": "ABOUT THE AUTHOR(S)",
+    "crumbs": [
+      "Appendix 2: Standard Account Pages, Sections, and Subsections"
+    ]
+  },
+  {
+    "objectID": "app3.html",
+    "href": "app3.html",
+    "title": "Appendix 3: Descriptions of Account Pages, Sections, and Subsections",
+    "section": "",
+    "text": "INTRODUCTION\nx\nx",
+    "crumbs": [
+      "Appendix 3: Descriptions of Account Pages, Sections, and Subsections"
+    ]
+  },
+  {
+    "objectID": "app3.html#sec-app3-id",
+    "href": "app3.html#sec-app3-id",
+    "title": "Appendix 3: Descriptions of Account Pages, Sections, and Subsections",
+    "section": "FIELD IDENTIFICATION",
+    "text": "FIELD IDENTIFICATION\n\nField Identification (introduction)\nx\n\n\nIdentification\nx\n\n\nSimilar Species Summary\nx\n\n\nSimilar Species\nx",
+    "crumbs": [
+      "Appendix 3: Descriptions of Account Pages, Sections, and Subsections"
+    ]
+  },
+  {
+    "objectID": "app3.html#sec-app3-plumages",
+    "href": "app3.html#sec-app3-plumages",
+    "title": "Appendix 3: Descriptions of Account Pages, Sections, and Subsections",
+    "section": "PLUMAGES, MOLTS, AND STRUCTURE",
+    "text": "PLUMAGES, MOLTS, AND STRUCTURE\n\nPlumages\nx\n\n\nMolts\nx\n\n\nBare Parts\nx\n\n\nMeasurements\nLinear Measurements\nx\nMass\nx",
+    "crumbs": [
+      "Appendix 3: Descriptions of Account Pages, Sections, and Subsections"
+    ]
+  },
+  {
+    "objectID": "app3.html#sec-app3-systematics",
+    "href": "app3.html#sec-app3-systematics",
+    "title": "Appendix 3: Descriptions of Account Pages, Sections, and Subsections",
+    "section": "SYSTEMATICS",
+    "text": "SYSTEMATICS\n\nSystematics History\nx\n\n\nGeographic Variation\nx\n\n\nSubspecies\nx\n\n\nRelated Species\nx\n\n\nHybridization\nx\n\n\nFossils\nx",
+    "crumbs": [
+      "Appendix 3: Descriptions of Account Pages, Sections, and Subsections"
+    ]
+  },
+  {
+    "objectID": "app3.html#sec-app3-distribution",
+    "href": "app3.html#sec-app3-distribution",
+    "title": "Appendix 3: Descriptions of Account Pages, Sections, and Subsections",
+    "section": "DISTRIBUTION",
+    "text": "DISTRIBUTION\nx\n\nDistribution (introduction)\nx\nBreeding Range/Nonbreeding Range\nx\nElevational Range\nx\nIntroduced Range\nx\nExtralimital Records\nx\n\n\nHistorical Changes to the Distribution\nx",
+    "crumbs": [
+      "Appendix 3: Descriptions of Account Pages, Sections, and Subsections"
+    ]
+  },
+  {
+    "objectID": "app3.html#sec-app3-habitat",
+    "href": "app3.html#sec-app3-habitat",
+    "title": "Appendix 3: Descriptions of Account Pages, Sections, and Subsections",
+    "section": "HABITAT",
+    "text": "HABITAT\n\nHabitat (introduction)\nx\n\n\nGeneral Habitat\nx\n\n\nHabitat in Breeding Range\nx\n\n\nHabitat in Migration\nx\n\n\nHabitat in Nonbreeding Range\nx",
+    "crumbs": [
+      "Appendix 3: Descriptions of Account Pages, Sections, and Subsections"
+    ]
+  },
+  {
+    "objectID": "app3.html#sec-app3-movements",
+    "href": "app3.html#sec-app3-movements",
+    "title": "Appendix 3: Descriptions of Account Pages, Sections, and Subsections",
+    "section": "MOVEMENTS AND MIGRATION",
+    "text": "MOVEMENTS AND MIGRATION\n\nMovements and Migration (introduction)\nx\n\n\nDispersal and Site Fidelity\nx\n\n\nNonmigratory Movements\nx\n\n\nMigration Overview\nx\n\n\nTiming and Routes of Migration\nx\n\n\nMigratory Behavior\nx\n\n\nControl and Physiology of Migration\nx",
+    "crumbs": [
+      "Appendix 3: Descriptions of Account Pages, Sections, and Subsections"
+    ]
+  },
+  {
+    "objectID": "app3.html#sec-app3-diet",
+    "href": "app3.html#sec-app3-diet",
+    "title": "Appendix 3: Descriptions of Account Pages, Sections, and Subsections",
+    "section": "DIET AND FORAGING",
+    "text": "DIET AND FORAGING\nx\n\nDiet and Foraging (introduction)\nx\n\n\nFeeding\nMicrohabitat for Foraging\nx\nFood Capture and Consumption\nx\n\n\nDiet\nMajor Food Items\nx\nQuantitative Analysis\nx\n\n\nFood Selection and Storage\nx\n\n\nNutrition and Energetics\nx\n\n\nMetabolism and Temperature Regulation\nx\n\n\nDrinking, Pellet Casting, and Defecation\nx",
+    "crumbs": [
+      "Appendix 3: Descriptions of Account Pages, Sections, and Subsections"
+    ]
+  },
+  {
+    "objectID": "app3.html#sec-app3-sounds",
+    "href": "app3.html#sec-app3-sounds",
+    "title": "Appendix 3: Descriptions of Account Pages, Sections, and Subsections",
+    "section": "SOUNDS AND VOCAL BEHAVIOR",
+    "text": "SOUNDS AND VOCAL BEHAVIOR\nx\n\nSounds and Vocal Behavior (introduction)\nx\n\n\nVocalizations\nVocal Development\nx\nVocal Array\nx\nGeographic Variation\nx\nPhenology\nx\nDaily Pattern of Vocalizing\nx\nPlaces of Vocalizing\nx\nSex Differences\nx\nRepertoire and Delivery of Songs\nx\nSocial Context and Presumed Functions of Vocalizations\nx\n\n\nNonvocal Sounds\nx",
+    "crumbs": [
+      "Appendix 3: Descriptions of Account Pages, Sections, and Subsections"
+    ]
+  },
+  {
+    "objectID": "app3.html#sec-app3-behavior",
+    "href": "app3.html#sec-app3-behavior",
+    "title": "Appendix 3: Descriptions of Account Pages, Sections, and Subsections",
+    "section": "BEHAVIOR",
+    "text": "BEHAVIOR\nx\n\nBehavior (introduction)\nx\n\n\nLocomotion\nx\n\n\nSelf-Maintenance\nx\n\n\nAgonistic Behavior\nx\n\n\nSexual Behavior\nx\n\n\nSocial and Interspecific Behavior\nx\n\n\nPredation\nx",
+    "crumbs": [
+      "Appendix 3: Descriptions of Account Pages, Sections, and Subsections"
+    ]
+  },
+  {
+    "objectID": "app3.html#sec-app3-breeding",
+    "href": "app3.html#sec-app3-breeding",
+    "title": "Appendix 3: Descriptions of Account Pages, Sections, and Subsections",
+    "section": "BREEDING",
+    "text": "BREEDING\nx\n\nBreeding (introduction)\nx\n\n\nPhenology\nx\n\n\nNest Site\nx\n\n\nNest\nx\n\n\nEggs\nx\n\n\nIncubation\nx\n\n\nHatching\nx\n\n\nYoung Birds\nx\n\n\nParental Care\nx\n\n\nCooperative Breeding\nx\n\n\nBrood Parasitism\nx\n\n\nFledgling Stage\nx",
+    "crumbs": [
+      "Appendix 3: Descriptions of Account Pages, Sections, and Subsections"
+    ]
+  },
+  {
+    "objectID": "app3.html#sec-app3-demography",
+    "href": "app3.html#sec-app3-demography",
+    "title": "Appendix 3: Descriptions of Account Pages, Sections, and Subsections",
+    "section": "DEMOGRAPHY AND POPULATIONS",
+    "text": "DEMOGRAPHY AND POPULATIONS\n\nDemography and Populations (introduction)\nx\n\n\nMeasures of Breeding Activity\nx\n\n\nLife Span and Survivorship\nx\n\n\nPathogens and Parasites\nx\n\n\nCauses of Mortality\nx\n\n\nPopulation Spatial Metrics\nx\n\n\nPopulation Status\nx\n\n\nPopulation Regulation\nx",
+    "crumbs": [
+      "Appendix 3: Descriptions of Account Pages, Sections, and Subsections"
+    ]
+  },
+  {
+    "objectID": "app3.html#sec-app3-conservation",
+    "href": "app3.html#sec-app3-conservation",
+    "title": "Appendix 3: Descriptions of Account Pages, Sections, and Subsections",
+    "section": "CONSERVATION AND MANAGEMENT",
+    "text": "CONSERVATION AND MANAGEMENT\n\nConservation Status\nx\n\n\nEffects of Human Activity\nx\n\n\nManagement\nx",
+    "crumbs": [
+      "Appendix 3: Descriptions of Account Pages, Sections, and Subsections"
+    ]
+  },
+  {
+    "objectID": "app3.html#sec-app3-humans",
+    "href": "app3.html#sec-app3-humans",
+    "title": "Appendix 3: Descriptions of Account Pages, Sections, and Subsections",
+    "section": "RELATIONSHIP WITH HUMANS",
+    "text": "RELATIONSHIP WITH HUMANS\n\nRelationship with Humans (introduction)\nx\n\n\nVernacular Names\nx\n\n\nCultural, Symbolic, and Aesthetic Significance\nEarly History\nx\nPresence in Folklore, Religion, and Symbolism\nx\nDepictions in Media\nx\nPublic Perception\nx\n\n\nEconomic and Utilitarian Significance\nUse by Humans\nx\nHarm Inflicted by Focal Species\nx\nAviculture and Domestication\nx\nUse as a Research Model\nx",
+    "crumbs": [
+      "Appendix 3: Descriptions of Account Pages, Sections, and Subsections"
+    ]
+  },
+  {
+    "objectID": "app3.html#sec-app3-priorities",
+    "href": "app3.html#sec-app3-priorities",
+    "title": "Appendix 3: Descriptions of Account Pages, Sections, and Subsections",
+    "section": "PRIORITIES FOR FUTURE RESEARCH",
+    "text": "PRIORITIES FOR FUTURE RESEARCH",
+    "crumbs": [
+      "Appendix 3: Descriptions of Account Pages, Sections, and Subsections"
+    ]
+  },
+  {
+    "objectID": "app3.html#sec-app3-other",
+    "href": "app3.html#sec-app3-other",
+    "title": "Appendix 3: Descriptions of Account Pages, Sections, and Subsections",
+    "section": "OTHER",
+    "text": "OTHER",
+    "crumbs": [
+      "Appendix 3: Descriptions of Account Pages, Sections, and Subsections"
+    ]
+  },
+  {
+    "objectID": "app3.html#sec-app3-acknowledgments",
+    "href": "app3.html#sec-app3-acknowledgments",
+    "title": "Appendix 3: Descriptions of Account Pages, Sections, and Subsections",
+    "section": "ACKNOWLEDGMENTS",
+    "text": "ACKNOWLEDGMENTS",
+    "crumbs": [
+      "Appendix 3: Descriptions of Account Pages, Sections, and Subsections"
+    ]
+  },
+  {
+    "objectID": "app3.html#sec-app3-authors",
+    "href": "app3.html#sec-app3-authors",
+    "title": "Appendix 3: Descriptions of Account Pages, Sections, and Subsections",
+    "section": "ABOUT THE AUTHOR(S)",
+    "text": "ABOUT THE AUTHOR(S)",
+    "crumbs": [
+      "Appendix 3: Descriptions of Account Pages, Sections, and Subsections"
+    ]
+  },
+  {
+    "objectID": "app3.html#sec-app3-id-intro",
+    "href": "app3.html#sec-app3-id-intro",
+    "title": "Appendix 3: Descriptions of Account Pages, Sections, and Subsections",
+    "section": "Field Identification (introduction)",
+    "text": "Field Identification (introduction)",
+    "crumbs": [
+      "Appendix 3: Descriptions of Account Pages, Sections, and Subsections"
+    ]
+  },
+  {
+    "objectID": "app3.html#sec-app3-id-id",
+    "href": "app3.html#sec-app3-id-id",
+    "title": "Appendix 3: Descriptions of Account Pages, Sections, and Subsections",
+    "section": "Identification",
+    "text": "Identification",
+    "crumbs": [
+      "Appendix 3: Descriptions of Account Pages, Sections, and Subsections"
+    ]
+  },
+  {
+    "objectID": "app3.html#sec-app3-id-sssum",
+    "href": "app3.html#sec-app3-id-sssum",
+    "title": "Appendix 3: Descriptions of Account Pages, Sections, and Subsections",
+    "section": "Similar Species Summary",
+    "text": "Similar Species Summary",
+    "crumbs": [
+      "Appendix 3: Descriptions of Account Pages, Sections, and Subsections"
+    ]
+  },
+  {
+    "objectID": "app3.html#sec-app3-id-ss",
+    "href": "app3.html#sec-app3-id-ss",
+    "title": "Appendix 3: Descriptions of Account Pages, Sections, and Subsections",
+    "section": "Similar Species",
+    "text": "Similar Species",
+    "crumbs": [
+      "Appendix 3: Descriptions of Account Pages, Sections, and Subsections"
+    ]
+  },
+  {
+    "objectID": "app4.html",
+    "href": "app4.html",
+    "title": "Appendix 4: Style and Formatting Conventions",
+    "section": "",
+    "text": "General\nx",
+    "crumbs": [
+      "Appendix 4: Style and Formatting Conventions"
+    ]
+  },
+  {
+    "objectID": "app4.html#sec-app4-language",
+    "href": "app4.html#sec-app4-language",
+    "title": "Appendix 4: Style and Formatting Conventions",
+    "section": "Language",
+    "text": "Language\nx",
+    "crumbs": [
+      "Appendix 4: Style and Formatting Conventions"
+    ]
+  },
+  {
+    "objectID": "app4.html#sec-app4-general",
+    "href": "app4.html#sec-app4-general",
+    "title": "Appendix 4: Style and Formatting Conventions",
+    "section": "General",
+    "text": "General\nx",
+    "crumbs": [
+      "Appendix 4: Style and Formatting Conventions"
+    ]
+  },
+  {
+    "objectID": "app4.html#sec-app4-species",
+    "href": "app4.html#sec-app4-species",
+    "title": "Appendix 4: Style and Formatting Conventions",
+    "section": "Referring to Species",
+    "text": "Referring to Species\nx",
+    "crumbs": [
+      "Appendix 4: Style and Formatting Conventions"
+    ]
+  },
+  {
+    "objectID": "app4.html#sec-app4-vocalizations",
+    "href": "app4.html#sec-app4-vocalizations",
+    "title": "Appendix 4: Style and Formatting Conventions",
+    "section": "Describing Vocalizations",
+    "text": "Describing Vocalizations\nx",
+    "crumbs": [
+      "Appendix 4: Style and Formatting Conventions"
+    ]
+  },
+  {
+    "objectID": "app4.html#sec-app4-geographic",
+    "href": "app4.html#sec-app4-geographic",
+    "title": "Appendix 4: Style and Formatting Conventions",
+    "section": "Referring to Geographic Locations",
+    "text": "Referring to Geographic Locations\nx",
+    "crumbs": [
+      "Appendix 4: Style and Formatting Conventions"
+    ]
+  },
+  {
+    "objectID": "app4.html#sec-app4-time",
+    "href": "app4.html#sec-app4-time",
+    "title": "Appendix 4: Style and Formatting Conventions",
+    "section": "Referring to Measures of Time",
+    "text": "Referring to Measures of Time\nx",
+    "crumbs": [
+      "Appendix 4: Style and Formatting Conventions"
+    ]
+  },
+  {
+    "objectID": "app4.html#sec-app4-age",
+    "href": "app4.html#sec-app4-age",
+    "title": "Appendix 4: Style and Formatting Conventions",
+    "section": "Referring to Age",
+    "text": "Referring to Age\nx",
+    "crumbs": [
+      "Appendix 4: Style and Formatting Conventions"
+    ]
+  },
+  {
+    "objectID": "app4.html#sec-app4-plumages",
+    "href": "app4.html#sec-app4-plumages",
+    "title": "Appendix 4: Style and Formatting Conventions",
+    "section": "Describing Plumages and Molts",
+    "text": "Describing Plumages and Molts\nx",
+    "crumbs": [
+      "Appendix 4: Style and Formatting Conventions"
+    ]
+  },
+  {
+    "objectID": "app4.html#sec-app4-numbering",
+    "href": "app4.html#sec-app4-numbering",
+    "title": "Appendix 4: Style and Formatting Conventions",
+    "section": "Numbering and Associated Issues",
+    "text": "Numbering and Associated Issues\nx",
+    "crumbs": [
+      "Appendix 4: Style and Formatting Conventions"
+    ]
+  },
+  {
+    "objectID": "app4.html#sec-app4-hyphens",
+    "href": "app4.html#sec-app4-hyphens",
+    "title": "Appendix 4: Style and Formatting Conventions",
+    "section": "Hyphens",
+    "text": "Hyphens\nx",
+    "crumbs": [
+      "Appendix 4: Style and Formatting Conventions"
+    ]
+  },
+  {
+    "objectID": "app4.html#sec-app4-commas",
+    "href": "app4.html#sec-app4-commas",
+    "title": "Appendix 4: Style and Formatting Conventions",
+    "section": "Commas",
+    "text": "Commas\nx",
+    "crumbs": [
+      "Appendix 4: Style and Formatting Conventions"
+    ]
+  },
+  {
+    "objectID": "app4.html#sec-app4-abbreviations",
+    "href": "app4.html#sec-app4-abbreviations",
+    "title": "Appendix 4: Style and Formatting Conventions",
+    "section": "Abbreviations",
+    "text": "Abbreviations\nx",
+    "crumbs": [
+      "Appendix 4: Style and Formatting Conventions"
+    ]
+  },
+  {
+    "objectID": "app4.html#sec-app4-rare",
+    "href": "app4.html#sec-app4-rare",
+    "title": "Appendix 4: Style and Formatting Conventions",
+    "section": "Rare and Author-/Account-specific Abbreviations",
+    "text": "Rare and Author-/Account-specific Abbreviations\nx",
+    "crumbs": [
+      "Appendix 4: Style and Formatting Conventions"
+    ]
+  },
+  {
+    "objectID": "app4.html#sec-app4-quotations",
+    "href": "app4.html#sec-app4-quotations",
+    "title": "Appendix 4: Style and Formatting Conventions",
+    "section": "Quotations",
+    "text": "Quotations\nx",
+    "crumbs": [
+      "Appendix 4: Style and Formatting Conventions"
+    ]
+  },
+  {
+    "objectID": "app4.html#sec-app4-sections",
+    "href": "app4.html#sec-app4-sections",
+    "title": "Appendix 4: Style and Formatting Conventions",
+    "section": "Referring to Sections Elsewhere in the Account",
+    "text": "Referring to Sections Elsewhere in the Account\nx",
+    "crumbs": [
+      "Appendix 4: Style and Formatting Conventions"
+    ]
+  },
+  {
+    "objectID": "app4.html#sec-app4-statistics",
+    "href": "app4.html#sec-app4-statistics",
+    "title": "Appendix 4: Style and Formatting Conventions",
+    "section": "Statistics",
+    "text": "Statistics\nx",
+    "crumbs": [
+      "Appendix 4: Style and Formatting Conventions"
+    ]
+  },
+  {
+    "objectID": "app4.html#sec-app4-other",
+    "href": "app4.html#sec-app4-other",
+    "title": "Appendix 4: Style and Formatting Conventions",
+    "section": "Other",
+    "text": "Other\nx",
+    "crumbs": [
+      "Appendix 4: Style and Formatting Conventions"
+    ]
+  },
+  {
+    "objectID": "app4.html#sec-app4-symbols",
+    "href": "app4.html#sec-app4-symbols",
+    "title": "Appendix 4: Style and Formatting Conventions",
+    "section": "Useful Symbols",
+    "text": "Useful Symbols\nx",
+    "crumbs": [
+      "Appendix 4: Style and Formatting Conventions"
+    ]
+  },
+  {
+    "objectID": "app4.html#sec-app4-terms",
+    "href": "app4.html#sec-app4-terms",
+    "title": "Appendix 4: Style and Formatting Conventions",
+    "section": "Commonly Used Terms",
+    "text": "Commonly Used Terms\nx",
+    "crumbs": [
+      "Appendix 4: Style and Formatting Conventions"
+    ]
+  },
+  {
+    "objectID": "app4.html#sec-app4-headings",
+    "href": "app4.html#sec-app4-headings",
+    "title": "Appendix 4: Style and Formatting Conventions",
+    "section": "Headings",
+    "text": "Headings\nx",
+    "crumbs": [
+      "Appendix 4: Style and Formatting Conventions"
+    ]
+  },
+  {
+    "objectID": "app5.html",
+    "href": "app5.html",
+    "title": "Appendix 5: Format for References",
+    "section": "",
+    "text": "Book\nx\nx",
+    "crumbs": [
+      "Appendix 5: Format for References"
+    ]
+  },
+  {
+    "objectID": "app5.html#sec-app5-chapter",
+    "href": "app5.html#sec-app5-chapter",
+    "title": "Appendix 5: Format for References",
+    "section": "Book Chapter",
+    "text": "Book Chapter\nx",
+    "crumbs": [
+      "Appendix 5: Format for References"
+    ]
+  },
+  {
+    "objectID": "app5.html#sec-app5-government",
+    "href": "app5.html#sec-app5-government",
+    "title": "Appendix 5: Format for References",
+    "section": "Government Report",
+    "text": "Government Report\nx",
+    "crumbs": [
+      "Appendix 5: Format for References"
+    ]
+  },
+  {
+    "objectID": "app5.html#sec-app5-thesis",
+    "href": "app5.html#sec-app5-thesis",
+    "title": "Appendix 5: Format for References",
+    "section": "Thesis or Dissertation",
+    "text": "Thesis or Dissertation\nx",
+    "crumbs": [
+      "Appendix 5: Format for References"
+    ]
+  },
+  {
+    "objectID": "app5.html#sec-app5-online",
+    "href": "app5.html#sec-app5-online",
+    "title": "Appendix 5: Format for References",
+    "section": "Online Resource",
+    "text": "Online Resource\nx",
+    "crumbs": [
+      "Appendix 5: Format for References"
+    ]
+  },
+  {
+    "objectID": "app5.html#sec-app5-BNA",
+    "href": "app5.html#sec-app5-BNA",
+    "title": "Appendix 5: Format for References",
+    "section": "Birds of North America or Birds of the World Species Account",
+    "text": "Birds of North America or Birds of the World Species Account\nx",
+    "crumbs": [
+      "Appendix 5: Format for References"
+    ]
+  },
+  {
+    "objectID": "app5.html#sec-app5-editor",
+    "href": "app5.html#sec-app5-editor",
+    "title": "Appendix 5: Format for References",
+    "section": "Works with Editor(s) Instead of Author(s)",
+    "text": "Works with Editor(s) Instead of Author(s)\nx",
+    "crumbs": [
+      "Appendix 5: Format for References"
+    ]
+  },
+  {
+    "objectID": "app5.html#sec-app5-suffix",
+    "href": "app5.html#sec-app5-suffix",
+    "title": "Appendix 5: Format for References",
+    "section": "Author with Suffix",
+    "text": "Author with Suffix\nx",
+    "crumbs": [
+      "Appendix 5: Format for References"
+    ]
+  },
+  {
+    "objectID": "app5.html#sec-app5-notes",
+    "href": "app5.html#sec-app5-notes",
+    "title": "Appendix 5: Format for References",
+    "section": "Notes",
+    "text": "Notes\nx",
+    "crumbs": [
+      "Appendix 5: Format for References"
+    ]
+  },
+  {
+    "objectID": "app6.html",
+    "href": "app6.html",
+    "title": "Appendix 6: Glossary",
+    "section": "",
+    "text": "x",
+    "crumbs": [
+      "Appendix 6: Glossary"
+    ]
+  },
+  {
+    "objectID": "app7.html",
+    "href": "app7.html",
+    "title": "Appendix 7: Media Policies and Procedures",
+    "section": "",
+    "text": "Figures\nx\nx",
+    "crumbs": [
+      "Appendix 7: Media Policies and Procedures"
+    ]
+  },
+  {
+    "objectID": "app7.html#sec-intro-images",
+    "href": "app7.html#sec-intro-images",
+    "title": "Appendix 7: Media Policies and Procedures",
+    "section": "Images",
+    "text": "Images\nx\n\nSubmitting Your Own Images\nx\n\n\nSelecting Images That Are Already in the Macaulay Library\nx",
+    "crumbs": [
+      "Appendix 7: Media Policies and Procedures"
+    ]
+  },
+  {
+    "objectID": "app7.html#sec-intro-audio",
+    "href": "app7.html#sec-intro-audio",
+    "title": "Appendix 7: Media Policies and Procedures",
+    "section": "Audio",
+    "text": "Audio\nx\n\nSubmitting Your Own Audtio\nx\n\n\nSelecting Audio That Is Already in the Macaulay Library\nx",
+    "crumbs": [
+      "Appendix 7: Media Policies and Procedures"
+    ]
+  },
+  {
+    "objectID": "app7.html#sec-intro-video",
+    "href": "app7.html#sec-intro-video",
+    "title": "Appendix 7: Media Policies and Procedures",
+    "section": "Video",
+    "text": "Video\nx\n\nSubmitting Your Own Video\nx\n\n\nSelecting Video That Is Already in the Macaulay Library\nx",
+    "crumbs": [
+      "Appendix 7: Media Policies and Procedures"
+    ]
+  },
+  {
+    "objectID": "app7.html#sec-intro-tables",
+    "href": "app7.html#sec-intro-tables",
+    "title": "Appendix 7: Media Policies and Procedures",
+    "section": "Tables",
+    "text": "Tables\nx",
+    "crumbs": [
+      "Appendix 7: Media Policies and Procedures"
+    ]
+  },
+  {
+    "objectID": "app7.html#sec-intro-copyright",
+    "href": "app7.html#sec-intro-copyright",
+    "title": "Appendix 7: Media Policies and Procedures",
+    "section": "Copyright and Permissions",
+    "text": "Copyright and Permissions\nx",
+    "crumbs": [
+      "Appendix 7: Media Policies and Procedures"
+    ]
+  },
+  {
+    "objectID": "checklist.html#sec-checklist-en",
+    "href": "checklist.html#sec-checklist-en",
+    "title": "Draft Submission Checklist",
+    "section": "",
+    "text": "If completing a full revision, attempt to include information for all relevant sections of the account (see Appendix 2 for a list of sections and Appendix 3 for guidance on each section).\nCheck the Additional References on the References page of the account for any sources you might have missed during your literature search. This is especially important for accounts originally published in HBW since these typically did not involve an exhaustive survey of the literature.\nCite all statements in the account with a “reference tag” (see Step 5: Linking and Adding References), or note if the source of that statement is unpublished data, a personal observation, a personal communication, or an observation from eBird or a similar project (see References/Citations).\n\nException: Avoid using references in the Introduction unless you are providing a quotation or information that is not included elsewhere in the account.\nIf no published information is available, please note “Information needed.”\nIf you are preparing a full revision but did not evaluate a section, please note “This section was not evaluated.”\n\nFormat all new references that you have added according to BOW style (see Appendix 5). \nScan through the Literature Cited on the References page for any duplicated references (ordering the references alphabetically can be helpful) and replace as needed in the account text (see Step 5: Linking and Adding References).\nEnsure that any headings (e.g., text formatted as Heading 1 or Heading 2) are not bolded.\nUse “species tags” for all references to bird names (see Referring to Species).\n\nFor the focal species, use the common name only (except when use of the scientific name is more helpful, such as on some parts of the Systematics page).\nFor species other than the focal species, provide the scientific name and link to the BOW account the first time the species is named in each section of the account. For subsequent mentions of that species in the same section, use the common name only. For short pages, you may provide the scientific name and link only the first time the species is named on the page (rather than in each section).\n\nDo not use an s or ‘s after a species tag to make the species name plural or possessive, respectively. Our translation process does not support this. Instead, reframe the sentence to use the singular of the species’ name.\nEnsure that the focal species is mentioned at the beginning of each page. Avoid beginning a page or section with “It,” as it should first be made clear that “it” refers to the focal species.\nUse lowercase for common names of nonbird species (but still capitalize proper nouns, e.g., Central American, European).\nEnsure that information in the first section on each page (i.e., the section that does not have a heading and is labeled “(introduction)” in Appendix 2) provides a general summary of the information on the page without repeating details given below. Avoid using citations in this section unless you provide information that does appear elsewhere on the page (this should be rare).\nFor all quantitative data, specify which measures are provided (e.g., mean, median, SD, or SE) or how a given measurement was taken (e.g., exposed culmen). Any number following a ± symbol needs to be specified as the SD or SE (e.g., 121.4 mm ± 1.02 SE). If this information is not reported in the original source, indicate that it is unspecified.\nVerify that any figures, media, and/or tables were prepared as per BOW standards (see Appendix 7).\n\nIf any part of the draft was previously published in another context, please obtain or ensure sharing permissions to republish it.\n\nCheck any link-outs in the text and remove any that are no longer functional.\nFollow American English conventions for spelling (e.g., gray instead of grey) and punctuation (e.g., use the serial or Oxford comma) (see Appendix 4).\nUse complete sentences of reasonable length to help make the account easy to read.\nRead over the draft for grammar, spelling, and referencing.\nFinalize a suggested author order (to be specified on the Draft Completion Form).\nVerify that all contributors have recently (within the last two years) signed and submitted a Contributor Agreement to BOW staff.\nFill out and submit the Draft Completion Form.",
+    "crumbs": [
+      "Draft Submission Checklist"
+    ]
+  }
+]
