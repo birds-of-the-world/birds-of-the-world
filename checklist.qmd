@@ -34,7 +34,7 @@ Before submitting the Draft Completion Form ([English](https://forms.gle/e6uTR5E
 
     -   For species other than the focal species, provide the scientific name and link to the BOW account the first time the species is named in each section of the account. For subsequent mentions of that species in the same section, use the common name only. For short pages, you may provide the scientific name and link only the first time the species is named on the page (rather than in each section).
 
--   Do not use an s or ‘s after a species tag to make the species name plural or possessive, respectively. Our translation process does not support this. Instead, reframe the sentence to use the singular of the species’ name.
+-   Do not use an *s* or *‘s* after a species tag to make the species name plural or possessive, respectively. Our translation process does not support this. Instead, reframe the sentence to use the singular of the species’ name.
 
 -   Ensure that the focal species is mentioned at the beginning of each page. Avoid beginning a page or section with “It,” as it should first be made clear that “it” refers to the focal species.
 
@@ -90,7 +90,7 @@ Antes de enviar el Formulario de finalización del primer borrador de ficha BOW 
 
     -   Para especies que no sean la especie focal, proveer el nombre común y científico y linkear a la ficha BOW de esa especie la primera vez que la especie sea mencionada en cada sección. Para menciones subsecuentes de la especie en la misma sección, utilizar solamente el nombre común. Para páginas cortas, proveer el nombre científico solo la primera vez en toda la página (más que en cada sección).
 
--   No usar una s o ‘s después de un “species” para dar un nombre plural o posesivo, respectivamente. Nuestro proceso de traducción automática no puede lidiar con esto. En vez de ello, replantee la oración para usar el nombre singular.
+-   No usar una *s* o *‘s* después de un “species” para dar un nombre plural o posesivo, respectivamente. Nuestro proceso de traducción automática no puede lidiar con esto. En vez de ello, replantee la oración para usar el nombre singular.
 
 -   Asegurarse que la especie focal es mencionada al inicio de cada página. Evitar iniciar una página o sección con “It,” pues debiese quedar claro que “it” se refiere a la especie focal.
 
