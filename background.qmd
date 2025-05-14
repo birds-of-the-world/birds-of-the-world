@@ -8,7 +8,7 @@ editor_options:
 
 **Please review [**Appendix 1**](https://birds-of-the-world.github.io/birds-of-the-world/app1.html) for all policies regarding authorship, conduct, and content. It is assumed that contributors have read and will abide by these policies and have signed the BOW Contributor Agreement before beginning their revision.**
 
-BOW contributors do not receive financial compensation for their work, although they do receive gratis access to BOW. 
+BOW contributors do not receive financial compensation for their work, although they do receive *gratis* access to BOW. 
 
 For an initial BOW revision, you will be given access to a draft account that contains text derived from the most recent BOW, *Birds of North America* (BNA), *Neotropical Birds* (NB), and/or *Handbook of the Birds of the World* (HBW) species account (depending on your species’ geographic distribution). You can expect the following type of coverage from each original source:
 
