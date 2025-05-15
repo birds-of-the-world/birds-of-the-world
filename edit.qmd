@@ -53,7 +53,7 @@ The “**Styles**” drop-down menu allows you to format different levels of hea
 Next (in red) are buttons that allow you to **bold text**, ***italicize text***, and format a ***scientific name*** or a ***vocalization***. To use these buttons, highlight the text you would like to change, and then click the button corresponding to the change you would like to make. The italics, “Sci Name,” and “Vocalization” tags all give the same appearance (italicized text); however, the Sci Name and Vocalization buttons insert a hidden tag that allows our system to recognize the special formatting. In the future, this will allow the system to make automatic updates when taxonomy changes or to link up media.
 
 -   Note, you should use the **Sci Name button** only when italicizing genera, subspecies, and the scientific names of species other than birds. This may include discussions of historical taxonomy or subspecies taxonomy (e.g., “the subspecies *flavicola*”). The **Species Name** button (see below) should be used for all bird common names, scientific names, and binomials. For more information, see @sec-app4-species.
--   Please use the **Vocalization button** to italicize onomatopoeic vocalizations (e.g., *Chuk* call). Do not italicize descriptive vocalizations like “Alarm Call.”
+-   Please use the **Vocalization button** to italicize onomatopoeic vocalizations (e.g., "*Chuk* call"). Do not italicize descriptive vocalizations like “Alarm Call.”
 
 Next are buttons for **subscript** (e.g., *x*~1~) or **superscript** (e.g., km^2^). To use these buttons, use your cursor to highlight the character that will become the subscript or superscript, and then click the desired button. The ***T~x~*** button removes any special formatting.
 
