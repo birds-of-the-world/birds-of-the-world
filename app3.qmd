@@ -162,7 +162,7 @@ List the subspecies currently recognized. Include the same information (original
 
 ### [Related Species]{style="color:blue;"} {#sec-app3-systematics-related}
 
-Focus on studies based on genetic data, given that most widely recognized species have been sampled, and only the most closely related species to your focal species. Comment briefly on how robust inferred relationships are (e.g., number of samples or loci screened) and any uncertainty in the analyses about those inferred relationships. In some cases, it may be interesting to contrast, briefly, current knowledge based on genetics with morphology-based classifications, where these differ especially dramatically or where the genetic data may not be particularly robust. Generally, though, the focus should be on recent studies that incorporate genetic data when available. In general, it is not necessary to provide a wider discussion of family-level or even genus-level relationships, especially for comparatively large (more speciose) groupings. However, for monospecific genera or families, a brief exposition of closest known relatives in other genera or families may be relevant, but keep in mind that our family-level texts already serve this purpose. In a few cases, it may be necessary to discuss relationships without the benefit of molecular data (e.g., “12 species of Accipiter remain unscreened genetically”). Even in cases in which a particular species has not been sampled genetically, it may be presumed to be very closely related to a species that has been sampled; in this case, it is appropriate to mention the genetic relationships of the species that have been sampled and to indicate that it is presumed that the present species is part of this group as well.
+Focus on studies based on genetic data, given that most widely recognized species have been sampled, and only the most closely related species to your focal species. Comment briefly on how robust inferred relationships are (e.g., number of samples or loci screened) and any uncertainty in the analyses about those inferred relationships. In some cases, it may be interesting to contrast, briefly, current knowledge based on genetics with morphology-based classifications, where these differ especially dramatically or where the genetic data may not be particularly robust. Generally, though, the focus should be on recent studies that incorporate genetic data when available. In general, it is not necessary to provide a wider discussion of family-level or even genus-level relationships, especially for comparatively large (more speciose) groupings. However, for monospecific genera or families, a brief exposition of closest known relatives in other genera or families may be relevant, but keep in mind that our family-level texts already serve this purpose. In a few cases, it may be necessary to discuss relationships without the benefit of molecular data (e.g., “12 species of *Accipiter* remain unscreened genetically”). Even in cases in which a particular species has not been sampled genetically, it may be presumed to be very closely related to a species that has been sampled; in this case, it is appropriate to mention the genetic relationships of the species that have been sampled and to indicate that it is presumed that the present species is part of this group as well.
 
 ### [Hybridization]{style="color:blue;"} {#sec-app3-systematics-hybrid}
 
@@ -180,7 +180,7 @@ Do not simply refer the reader to your distribution map but outline the current 
 
 Use the Breeding Range and Nonbreeding Range subsections if relevant to your species. If not, simply cover the relevant information without using a subsection or add different subsections that would be useful.
 
-**For all subsections** on the Distribution page, the following terminology on occurrence may be helpful. **Be sure to give the relevant range of months if discussing seasons (i.e., spring, summer, fall, winter):**
+**For all subsections**, the following terminology on occurrence may be helpful. **Be sure to give the relevant range of months if discussing seasons (i.e., spring, summer, fall, winter):**
 
 -   **Resident.** Year-round presence in an area, including breeding, although different populations may occur from season to season.
 -   **(Summer) Breeder.** Leaves the area during the nonbreeding season; some birds on a summering ground may actually be birds in passage, not yet on their own breeding grounds.
@@ -574,7 +574,7 @@ Most of the subsections in this section (see [Appendix 2](https://birds-of-the-w
 
 ### [Management]{style="color:blue;"} {#sec-app3-conservation-management}
 
-Most of the subsections (see [Appendix 2](https://birds-of-the-world.github.io/birds-of-the-world/app2.html))in this section are self-explanatory.
+Most of the subsections (see [Appendix 2](https://birds-of-the-world.github.io/birds-of-the-world/app2.html)) in this section are self-explanatory.
 
 ## [RELATIONSHIP WITH HUMANS]{style="color:purple;"} {#sec-app3-humans}
 
