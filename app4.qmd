@@ -198,7 +198,7 @@ editor_options:
 
 ## Abbreviations {#sec-app4-abbreviations}
 
--   **See also @sec-app4-time.**
+-   See also @sec-app4-time.
 -   Write “U.S.” instead of “U. S.” or “U.S.A.”
 -   Write “versus” instead of “vs.” unless using the term repeatedly in a short span of text.
 -   Write “first” instead of “1st,” “eighth” instead of “8th,” etc., unless using it repeatedly in a short span of text.
