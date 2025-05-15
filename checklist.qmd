@@ -50,7 +50,7 @@ Before submitting the Draft Completion Form ([English](https://forms.gle/e6uTR5E
 
 -   Check any link-outs in the text and remove any that are no longer functional.
 
--   Follow American English conventions for spelling (e.g., gray instead of grey) and punctuation (e.g., use the serial or Oxford comma) (see [Appendix 4](https://birds-of-the-world.github.io/birds-of-the-world/app4.html)).
+-   Follow American English conventions for spelling (e.g., "gray" instead of "grey") and punctuation (e.g., use the serial or Oxford comma) (see [Appendix 4](https://birds-of-the-world.github.io/birds-of-the-world/app4.html)).
 
 -   Use complete sentences of reasonable length to help make the account easy to read.
 
@@ -106,7 +106,7 @@ Antes de enviar el Formulario de finalización del primer borrador de ficha BOW 
 
 -   Chequear todos los enlaces y remover cualquiera que no esté funcionando actualmente.
 
--   Seguir convenciones del American English para deletrear (e.g., gray en vez de grey) y puntuación (e.g., usar la “coma de Oxford”) (véase [Appendix 4](https://birds-of-the-world.github.io/birds-of-the-world/app4.html)).
+-   Seguir convenciones del American English para deletrear (e.g., "gray" en vez de "grey") y puntuación (e.g., usar la “coma de Oxford”) (véase [Appendix 4](https://birds-of-the-world.github.io/birds-of-the-world/app4.html)).
 
 -   Usar oraciones de un largo razonable, que permitan una lectura fácil.
 
