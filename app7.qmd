@@ -14,7 +14,20 @@ You can review your account’s older media in the “live” version of the acc
 
 ## Figures {#sec-intro-figures}
 
-x
+We suggest that you review all figures in the account before submitting your revision for editorial review. If you have any new (or updated) figures to add to the account, please upload them at the largest size/highest quality possible to the Draft Completion Form ([English](https://forms.gle/e6uTR5E8Z5aXXc9n6), [Spanish](https://forms.gle/4e3PifYqvKrbQ1tV8)) or send them to Maria Smith ([mgs248\@cornell.edu](mailto:mgs248@cornell.edu)).
+
+If you would like to include a figure that has been published elsewhere in a BOW account, please contact the publisher of the other source to confirm who has the reproduction rights to the figure. If you are the sole owner of the rights, BOW may publish the figure. If the publisher shares ownership rights with you, then we will need a representative from the publisher to sign the BOW [Contributor Agreement](https://drive.google.com/file/d/1Arz8mqAamqQFlIfV2zNJFQbbB5Y0D4Ug/view?usp=sharing) before we can publish the figure in BOW. Please contact Brooke Keeney ([bkk37\@cornell.edu](mailto:bkk37@cornell.edu)) or Maria Smith ([mgs248\@cornell.edu](mailto:mgs248@cornell.edu)) with any questions about this process.
+
+BOW and eBird staff will procedurally evaluate the distribution map and the molt portion of the annual cycle diagram for revision and make changes as needed. You will be able to review these changes. Other figures will not be updated unless you provide specific instructions.
+
+If you would like BOW staff to generate any figures for you, please contact Brooke Keeney ([bkk37\@cornell.edu](mailto:bkk37@cornell.edu)) to discuss specifics.
+
+Please take note of the following:
+
+-   Whenever possible, numbered figures should be restricted to maps, graphs, charts, illustrations, etc. Photos are best displayed in the photo galleries and referenced in the text by their Macaulay Library asset numbers.
+-   Figures should be ordered by their first appearance in the text.
+-   If you have added/deleted any figures or want to rearrange the existing figure order, please provide a list of **all** of the figure numbers and titles that you would like in your revision (including both old and new figures).
+-   Please provide a Word document with all new or revised figure captions and titles.
 
 ## Images {#sec-intro-images}
 
