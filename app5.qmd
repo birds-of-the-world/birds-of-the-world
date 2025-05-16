@@ -52,7 +52,7 @@ Reference format generally follows that used by *Ornithology*, *Ornithological A
 
 -   Power, H. W., and M. P. Lombardo (1996). Mountain Bluebird (*Sialia currucoides*). In The Birds of North America, No. 222 (A. Poole and F. Gill, Editors). The Academy of Natural Sciences, Philadelphia, PA, USA, and The American Ornithologists’ Union, Washington, DC, USA. <https://doi.org/10.2173/tbna.222.p>
 -   Greenlaw, J. S., C. S. Elphick, W. Post, and J. D. Rising (2018). Saltmarsh Sparrow (*Ammospiza caudacuta*), version 2.0. In The Birds of North America (P. G. Rodewald, Editor). Cornell Lab of Ornithology, Ithaca, NY, USA. <https://doi.org/10.2173/bna.sstspa.02>
--   Pantoja-Maggi, V., and C. E. Muñoz-Varela (2024). Magellanic Tapaculo (Scytalopus magellanicus), version 2.1. In Birds of the World (S. M. Billerman, Editor). Cornell Lab of Ornithology, Ithaca, NY, USA. <https://doi.org/10.2173/bow.magtap1.02.1>
+-   Pantoja-Maggi, V., and C. E. Muñoz-Varela (2024). Magellanic Tapaculo (*Scytalopus magellanicus*), version 2.1. In Birds of the World (S. M. Billerman, Editor). Cornell Lab of Ornithology, Ithaca, NY, USA. <https://doi.org/10.2173/bow.magtap1.02.1>
 
 ## Work with Editor(s) Instead of Author(s) {#sec-app5-editor}
 
