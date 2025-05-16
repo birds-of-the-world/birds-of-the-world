@@ -280,7 +280,7 @@ editor_options:
 
 -   **Preformative Molt:** The molt that brings in the Formative Plumage, if any.
 
--   **Prejuvenile Molt: The molt that brings in the Juvenile Plumage. Equivalent to the First Prebasic Molt.**
+-   **Prejuvenile Molt:** The molt that brings in the Juvenile Plumage. Equivalent to the First Prebasic Molt.
 
 -   **Presupplemental Molt:** The molt that brings in the Supplemental Plumage, if any; it may follow either a basic or an alternate plumage.
 
@@ -290,7 +290,7 @@ editor_options:
 
 -   **Ptilopaedic:** Hatches with a dense coat of down.
 
--   **Rachis: The central shaft of a feather to which the barbs attach.**
+-   **Rachis:** The central shaft of a feather to which the barbs attach.
 
 -   **Rami (mandibular) (singular: ramus):** The two halves of the lower mandible, separated by soft tissue near the base (commissure) but uniting anteriorly in the gonys.
 
@@ -316,8 +316,6 @@ editor_options:
 
 -   **Rictus:** The soft, fleshy, posterior portion of the tomium near the commissural point.
 
-<!-- -->
-
 -   **Riparian woodland:** A biotic community, mostly of deciduous trees, near streams or bottomlands where there is an adequate supply of subsurface water; especially prominent in the more arid sections of the southwestern United States.
 
 -   **Rump:** The posterior one-third of the region on the upper side of the trunk between the base of the neck and the base of the tail. Synonym: pelvic region.
@@ -326,7 +324,7 @@ editor_options:
 
 -   **Scapulohumeral tract:** A narrow pteryla on the upper side of each shoulder, across the joint or just distal to it.
 
--   **Sclerophyll: A type of vegetation adapted to hot and dry conditions. Sclerophyllous plants typically have small and tough leaves.**
+-   **Sclerophyll:** A type of vegetation adapted to hot and dry conditions. Sclerophyllous plants typically have small and tough leaves.
 
 -   **Scutellate:** The character of the horny covering of the tarsus in which it is formed into more or less overlapping scales.
 
@@ -380,29 +378,17 @@ editor_options:
 
 -   **Variety:** The sequential presentation of song types in a repertoire. If successive songs in a performance are of different types, a bird is said to sing with “immediate variety”; if a bird repeats one song type many times before switching to another song type, the bird is said to sing with “eventual variety.”
 
-<!-- -->
-
 -   **Ventral tract:** The pteryla on the underside of the body, from the junction of the mandibular rami to the circlet of feathers around the vent. In different species, it may enclose a midventral apterium or be more or less divisible into such tracts as the cervical, pectoral, sternal, and abdominal.
-
-<!-- -->
 
 -   **Vertical displacement:** The characteristic of a species or population whose individuals regularly shift their elevational range in mountains. Synonym: altitudinal migration.
 
-<!-- -->
-
 -   **Vocal convergence:** The tendency for two or more birds to converge on similar vocal signals, usually as a result of vocal learning.
 
-<!-- -->
-
 -   **Vocalization:** Inclusive term for all avian sounds produced by the syrinx, in contrast to “nonvocal sounds” (q.v.).
-
-<!-- -->
 
 -   **Western Palearctic:** One of eight biogeographic realms, including mostly boreal and temperate climate ecoregions. It comprises northern Africa, the northern and central Arabian Peninsula, part of temperate Asia, and Europe. Its exact boundaries may vary by source.
 
 -   **Whistle:** A sound that most nearly approaches a pure tone, i.e., with a fundamental and no overtones.
-
-<!-- -->
 
 -   **Woodland:** An open stand of trees, usually less than 15 m tall, too widely spaced to form a continuous canopy, and with an intervening growth of grasses or shrubs.
 

@@ -320,7 +320,7 @@ Discuss any movements made by the species that do not qualify as migration or di
 
 ### [Migration Overview]{style="color:blue;"} {#sec-app3-movements-overview}
 
-Characterize the seasonal movements of individuals between geographic areas and habitats in response to changes in food availability. Provide an overview of differential migratory behavior of age and sex classes in time and space (you should provide details in Timing and Routes of Migration, below). Note any variation among populations of your species.
+Characterize the seasonal movements of individuals between geographic areas and habitats. Provide an overview of differential migratory behavior of age and sex classes in time and space (you should provide details in Timing and Routes of Migration, below). Note any variation among populations of your species.
 
 ### [Timing and Routes of Migration]{style="color:blue;"} {#sec-app3-movements-timing}
 
