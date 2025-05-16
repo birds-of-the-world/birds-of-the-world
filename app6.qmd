@@ -136,7 +136,7 @@ editor_options:
 
 -   **Formative Plumage:** A novel plumage in the first cycle between the Juvenile (First Basic) Plumage and the next alternate or basic plumage.
 
--   **Fourier analysis:** A technique for analyzing sounds in which a wave is sampled at some relatively high rate (at least 2.5× the highest frequency to be resolved), and the value of the wave at each of these points is assigned a specific digital value. Digitized information is then subjected to a Fourier analysis that provides a sound spectrum appearing as frequency on the x-axis and amplitude on the r-axis. Hence, each sound spectrogram represents a temporal slice through the sound that gives a reasonably precise portrayal of frequency and amplitude for a given instant. The duration of that instant varies with the range of frequencies to be sampled.
+-   **Fourier analysis:** A technique for analyzing sounds in which a wave is sampled at some relatively high rate (at least 2.5× the highest frequency to be resolved), and the value of the wave at each of these points is assigned a specific digital value. Digitized information is then subjected to a Fourier analysis that provides a sound spectrum appearing as frequency on the *x*-axis and amplitude on the *r*-axis. Hence, each sound spectrogram represents a temporal slice through the sound that gives a reasonably precise portrayal of frequency and amplitude for a given instant. The duration of that instant varies with the range of frequencies to be sampled.
 
 -   **Frequency:** The number of complete cycles of a periodic process occurring per unit time. A parameter for a sound wave, it is an objective measurement and thus not equivalent to “pitch” (q.v.). Usually measured as a number of cycles/second = hertz (Hz). The fundamental is the lowest frequency of a harmonic series.
 
@@ -348,7 +348,7 @@ editor_options:
 
 -   **Sound learning (sound imitation):** An adaptive change in sound-making behavior that results from experience. It is often a two-stage process in which an animal first memorizes a sound and later produces good copies of that original. A bird may learn to recognize a neighbor’s vocalizations and yet not vocalize those sounds; this is not “sound learning.” Be sure to use “sound learning” or “vocal learning” in an unambiguous way.
 
--   **Sound spectrogram:** A graph produced by any process that resolves sound in such a way as to show at what frequencies energy is distributed. With frequency on the x-axis, the y-axis may be either time, as in a sonogram, or amplitude, as in a Fourier transformation. Synonym: audio spectrogram.
+-   **Sound spectrogram:** A graph produced by any process that resolves sound in such a way as to show at what frequencies energy is distributed. With frequency on the *x*-axis, the *y*-axis may be either time, as in a sonogram, or amplitude, as in a Fourier transformation. Synonym: audio spectrogram.
 
 -   **Sparse vegetation:** Plants are spaced more than twice as far apart as their diameter. Distinguished from “open vegetation,” which describes plants that are, on average, separated by less than their diameter, and from “closed vegetation,” where they are in contact or overlap. These terms relate to whichever layer of vegetation shows the most complete coverage.
 
