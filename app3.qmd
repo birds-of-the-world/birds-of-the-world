@@ -432,7 +432,7 @@ Avoid functional interpretation and names (e.g., “courtship call”) for sound
 
 ### [Nonvocal Sounds]{style="color:blue;"} {#sec-app3-sounds-nonvocal}
 
-Sounds produced by the bill, the wings, or the tail should be treated in the same general way as vocalizations, as appropriate and as information exists.
+Sounds produced by the bill, feet, wings, or tail should be treated in the same general way as vocalizations, as appropriate and as information exists.
 
 ## [BEHAVIOR]{style="color:purple;"} {#sec-app3-behavior}
 

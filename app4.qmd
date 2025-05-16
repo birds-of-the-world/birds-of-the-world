@@ -348,6 +348,7 @@ The list below indicates the spelling, capitalization, and hyphenation (or lack 
 -   mid- (should be hyphenated in nearly all uses except midday)
 -   mist net
 -   mollusk
+-   molt migration (no hyphen)
 -   mountaintop
 -   nest box
 -   nestmate
@@ -437,8 +438,9 @@ The list below indicates the spelling, capitalization, and hyphenation (or lack 
 -   undertail
 -   underwing
 -   underwing coverts
--   upperparts
+-   upperparts (for the plural)
 -   underside
+-   upper part (for the singular)
 -   upper side
 -   uppertail (when used as an adjective, e.g., uppertail coverts)
 -   upperwing
