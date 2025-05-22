@@ -106,7 +106,7 @@ Peters (<https://www.biodiversitylibrary.org/bibliography/14581>) serves as a go
 
 Mention proposed alternative generic arrangements for your species, but focus on recent modifications promoted by molecular sequencing data, rather than attempting to provide a complete generic history. Some overlap with content in Related Species may be inevitable as a result. Generic histories are often available via key catalogs such as Peters, Sharpe’s Catalogue of the Birds of the British Museum, and, for the Western Hemisphere alone, Cory and Hellmayr, Ridgway, etc., so you may wish to provide links to one or more of these works.
 
-**Note:** If you would like to include information on scientific names that is not provided in The Key to Scientific Names (at the bottom of the Systematics page), please add it to the Systematics History section.
+**Note:** If you would like to include information on scientific names that is not provided in The Key to Scientific Names (available by clicking the “i” icon next to the species’ name at the top of the page), please add it to the Systematics History section.
 
 **Examples of how to cite names and type data:**
 
@@ -592,7 +592,7 @@ A general summation of the species’ relationship with humans and brief mention
 
 ### [Vernacular Names]{style="color:blue;"} {#sec-app3-humans-vernacular}
 
-List vernacular names for a given species that are used within its range, ordered alphabetically by language, and discuss their etymology and usage. [Avibase](https://avibase.bsc-eoc.org/avibase.jsp?lang=EN) is an excellent starting place to look for such names. Also mention other regularly/widely used common names for either the same taxonomic arrangement or other widely recognized arrangements, e.g., in regional field guides and other major checklists. One of the main aims should be to eliminate confusion in the minds of readers that is promoted by using different vernacular names. It is not necessary to provide information concerning the etymology of the scientific names, as information from James Jobling’s *Dictionary of Scientific Bird Names* is available on the Systematics page.
+List vernacular names for a given species that are used within its range, ordered alphabetically by language, and discuss their etymology and usage. [Avibase](https://avibase.bsc-eoc.org/avibase.jsp?lang=EN) is an excellent starting place to look for such names. Also mention other regularly/widely used common names for either the same taxonomic arrangement or other widely recognized arrangements, e.g., in regional field guides and other major checklists. One of the main aims should be to eliminate confusion in the minds of readers that is promoted by using different vernacular names. It is not necessary to provide information concerning the etymology of the scientific names, as information from James Jobling’s *Dictionary of Scientific Bird Names* is available by clicking the “i” icon next to the species’ name at the top of the page.
 
 Note that a generic list of common names in other languages is provided in the account as a pop-up on the Introduction page (under “Names” next to the species’ conservation status); however, it is not comprehensive, nor is it necessarily representative of all the relevant names and languages within the species’ range. This list is maintained by eBird, and any proposed additions or changes should be referred to that project.
 
