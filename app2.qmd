@@ -60,6 +60,7 @@ As discussed in the @sec-content-structure section, contributors have some flexi
 ## [HABITAT]{style="color:purple;"} {#sec-app2-habitat}
 
 -   @sec-app3-habitat-intro
+    -   Habitat Keywords
 -   @sec-app3-habitat-general
 -   @sec-app3-habitat-breeding
 -   @sec-app3-habitat-migration

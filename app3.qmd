@@ -221,9 +221,17 @@ Summarize any significant range expansions or contractions and causal factors th
 
 A general summation of the species’ habitat and brief mention of any points of special note. Avoid citations in this section.
 
+**Habitat Keywords**
+
+As possible, list the habitat categories and subcategories used by the species, as defined by Campbell et al. (2021) in the book *Habitats of the World* or other books in that series (described under @sec-app3-habitat-categories below), from most to least important. List the category followed by a colon and any applicable subcategories. Please do not include any other text in this section. The use of such categories will inform a forthcoming BOW data product containing key information on all bird species that will be useful for large-scale analyses. For example:
+
+Conifer forests: taiga (boreal forest), temperate conifer forest
+
+Temperate deciduous forests: temperate deciduous forest, temperate moist mixed forest
+
 ### [General Habitat]{style="color:blue;"} {#sec-app3-habitat-general}
 
-**For resident species**, start with a general description using the habitat categories and subcategories defined by Campbell et al. (2021) in the book *Habitats of the World* (described under Habitat Categories below), and then cover more specific details as needed. For example, characterize the habitat in terms of its latitudinal and elevational range and climatic limits, and describe the topography, substrate, and vegetation (including stages of growth and/or plant succession, dominant species and status, and spacing). Note, you may feel free to elaborate beyond the categories below.
+**For resident species**, start with a general description of its habitat, and then cover more specific details as needed. You may wish to use the habitat categories and subcategories defined by Campbell et al. (2021) in the book *Habitats of the World* (described under @sec-app3-habitat-categories below). If you have access to a copy of this book or any of its companion books for specific continents, the finer-scale habitat categories discussed might also be useful, but please note that consulting these books is by no means required. Characterize the habitat in terms of its latitudinal and elevational range and climatic limits, and describe the topography, substrate, and vegetation (including stages of growth and/or plant succession, dominant species and status, and spacing). Note, you may feel free to elaborate beyond the categories below.
 
 Note any habitat differences in different parts of the geographic range. Distinguish between habitats where the species occurs usually and those where it is uncommon. Do not use the phrases “habitat selection” or “habitat preference” unless there are direct studies of those specific phenomena. Compare habitats between your species and close relatives, particularly where they are sympatric.
 
