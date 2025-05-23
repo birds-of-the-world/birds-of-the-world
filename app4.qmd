@@ -70,6 +70,7 @@ editor_options:
     -   central Asia
     -   central Europe
     -   the East (in the U.S.)
+    -   East Africa
     -   the East Coast (in the U.S.)
     -   the Eastern Hemisphere
     -   eastern Europe
@@ -106,6 +107,7 @@ editor_options:
     -   upstate New York
     -   Washington state
     -   the West (in the U.S.)
+    -   West Africa
     -   the West Coast (in the U.S.)
     -   western Europe
     -   the Western Hemisphere
