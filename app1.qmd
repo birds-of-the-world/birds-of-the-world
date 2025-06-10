@@ -40,17 +40,44 @@ To maintain authorship status, authors are encouraged to actively participate in
 
 ## 3. Maintaining Status as an "Active" Contributor {#sec-app1-active}
 
-To remain maximally useful for research and conservation, BOW species accounts require regular updates, and previous contributors are encouraged to maintain ongoing involvement with their work. Beginning in 2025, contributors must review and renew their Contributor Information Form ([English](https://forms.gle/C3MySs5DtQZ1NR6b8), [Spanish](https://forms.gle/EZes93EWtmtrvtXi7)) and associated [Contributor Agreement](https://drive.google.com/file/d/1Arz8mqAamqQFlIfV2zNJFQbbB5Y0D4Ug/view?usp=sharing) every two years to maintain “active” contributor status. This requirement ensures current contact information and continued engagement with the BOW project. Contributors who become “inactive” may forfeit their ability to influence revision timing and implementation, and BOW staff will no longer be obligated to contact them.
+Beginning in 2025, contributors must review and renew their Contributor Information Form ([English](https://forms.gle/C3MySs5DtQZ1NR6b8), [Spanish](https://forms.gle/EZes93EWtmtrvtXi7)) and associated [Contributor Agreement](https://drive.google.com/file/d/1Arz8mqAamqQFlIfV2zNJFQbbB5Y0D4Ug/view?usp=sharing) every two years to maintain “active” contributor status. Active contributors can consult on how and when their work is updated, and BOW editors will make every reasonable effort to accommodate their preferences and facilitate their continued involvement with the project. 
+
+This requirement ensures current contact information and continued engagement with the BOW project. Contributors who become “inactive” may forfeit their ability to influence revision timing and implementation, and BOW staff will no longer be obligated to contact them.
 
 Contributors should clearly indicate their preferred contact methods and desired level of involvement on the Contributor Information Form. While BOW staff will make all reasonable efforts to accommodate these preferences, they reserve the right to override preferences that unnecessarily impede account updates or conflict with BOW’s goals and ethical standards.
 
-When contacting contributors who have requested notification, BOW staff will use the provided contact information. If no response is received within two weeks, staff will proceed with identifying alternative contributors for a species account. A simple acknowledgment of communication is sufficient to maintain “active” status.
+When contacting contributors who have requested notification, BOW staff will use the provided contact information. If no response is received within two weeks, staff will proceed with identifying alternative contributors for a species account. A simple acknowledgment of communication is sufficient to maintain active status.
 
-Active contributors retain the right to to consult on how and when their work is updated. While all contributors in good standing are always welcome to be involved with their work regardless of active status, those who become inactive are expected to collaborate constructively with any new contributors appointed during their inactivity.
+Active status may be lost if:
 
-BOW staff will endeavor to maintain as much communication with former and current contributors as reasonably possible; however, staff may initiate revisions of accounts without contacting the previous authors if (1) an account lacks active contributors, (2) there is no progress or communication for one year following a proposed update, or (3) BOW staff decide to terminate a contributor’s involvement (typically due to unsatisfactory performance, agreement violations, excessive delays, or other inappropriate conduct).
+-   The Contributor Information Form expires without renewal
+-   Communications from BOW staff go unanswered for more than two weeks
+-   No meaningful progress is shown on drafts for one year
+-   Professional conduct standards are violated
 
-## 4. BOW Content Standards {#sec-app1-content}
+While all contributors in good standing are always welcome to be involved with their work regardless of active status, those who become inactive will not be consulted regarding revisions and are expected to collaborate constructively with any new updates or contributors appointed during their inactivity.
+
+## 4. BOW Account Revision Policy {#sec-app1-revision}
+
+BOW species accounts are living documents that require regular updates to maintain their scientific value and utility for conservation. While BOW respects the substantial effort that contributors invest to create and revise accounts, we must balance this with our mission to provide current, comprehensive information. This policy outlines how BOW editors will approach account revisions while maintaining fairness to contributors.
+
+In general, accounts are revised when a need arises (e.g., the species is affected by the annual eBird/Clements Checklist taxonomic update), when part of the account is out of date (e.g., a change in conservation status), when an issue requires a fix (e.g., an account has a caveat statement incurred from an issue with one of more of its source projects), or when qualified contributors suggest or volunteer to make an update. 
+
+When new contributors are in consideration to revise an account, BOW editors will encourage collaboration with previous authors when feasible, ensure fair attribution of new and retained content, and mediate discussions about authorship order.
+
+When a typical revision is contemplated, BOW editors will first contact all active contributors associated with that account using the communication method they indicated on the Contributor Information Form ([English](https://forms.gle/C3MySs5DtQZ1NR6b8), [Spanish](https://forms.gle/EZes93EWtmtrvtXi7)). This initial contact from BOW editors will include the reason for the proposed revision, the options for participation, and if applicable, information about any potential new contributors and the expected timeline and scope of the update being proposed.
+
+Active contributors then have two weeks to decide whether they wish to lead or participate in the proposed revision. If no response is received within this time frame, BOW staff will proceed with the revision independently.
+
+For those who do choose to participate, BOW staff will work diligently to develop a revision plan that attempts to accommodate all parties’ schedules and preferences. While we understand that quality revisions require significant time and effort, we ask active contributors to prioritize updates when needs or opportunities arise. Active contributors maintain the right to work independently of new contributors, provided they can address revision needs within a comparable time frame.
+
+While BOW editors will do their best to accommodate the wishes of active contributors for how and when accounts are revised, there are some extremely high priorities for revision that BOW would like to see updated as expediently as possible. These include species of special conservation concern, accounts with known issues (e.g., geographically imbalanced coverage or caveats), species with large publication records, and accounts that have not been revised for 10 years or more. If a given account is considered a “high priority” for revision, active contributors must come up with a revision plan that demonstrates steady progress at a minimum of 3-month intervals. If a contributor cannot abide by this schedule, BOW staff will bring in other qualified contributors to accelerate the timeline of the revision. Authorship will be awarded as per standard policies.
+
+BOW staff will endeavor to maintain open communication with active contributors; however, BOW staff may initiate revisions of accounts without contacting the previous authors if (1) an account lacks active contributors, (2) there is no meaningful progress or communication for one year following a proposed update, or (3) BOW staff decide to terminate a contributor’s involvement (typically due to unsatisfactory performance, agreement violations, excessive delays, or other inappropriate conduct).
+
+This framework ensures that BOW maintains its scientific integrity and timeliness while respecting contributor efforts and fostering collaborative relationships within the ornithological community.
+
+## 5. BOW Content Standards {#sec-app1-content}
 
 BOW maintains rigorous academic and professional standards for all content. Plagiarism, copyright violations, or the use of content that has been generated via artificial intelligence (AI) are not permissible (also see the [BOW AI Policy](https://birdsoftheworld.org/bow/support/ai-policy)). Content should be objective and unbiased and should rely upon published information whenever possible.
 
