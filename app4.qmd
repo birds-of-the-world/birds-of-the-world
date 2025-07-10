@@ -34,7 +34,7 @@ editor_options:
 ## Referring to Species {#sec-app4-species}
 
 -   Any bird species mentioned in an account should be included using the Species Name button (or “species tag”).
-    -   The default species is the species whose account you are editing. To include the name of any other species, type the name into the search bar.
+    -   The default species is the species whose account you are editing. To include the name of any other species, type the name into the search bar and click on the desired species.
 -   Add both common and scientific names (and check the “HTML Link to Account” button) at **the first mention of a bird species per section** (select “Both” from the “Display Name As” dropdown in the Species Name window) when referring to species **other than the focal species of the account**. For subsequent mentions of such a nonfocal species in the same section, neither the scientific name nor a link to the account is needed. For short pages, you may use the scientific name and link to the account only the first time the species is named on the page. When referring to the focal species, the scientific name is not typically used except in certain discussions on the Systematics page in which it is helpful to use it.
     -   The Species Name button tags a name such that the common name can be changed based on a user’s settings and a name can be automatically updated in case of changes in taxonomy or nomenclature. If there are cases in which you want to use a name and you do not want it to ever change (with either language or taxonomy), **do not** use the species tag. This may be useful if discussing the history of a name or taxon or mentioning local names of species.
 -   The Species Name button does not include subspecies, standalone genera (i.e., without a species name), or families and should **not** be used in those situations.
@@ -54,8 +54,8 @@ editor_options:
 
 ## Describing Vocalizations {#sec-app4-vocalizations}
 
--   When spelling out onomatopoeic vocalizations, use the “Vocalization” tag (see @sec-edit-three) to italicize them (e.g., “*Chuk* call”). **Do not** use quotation marks around such descriptions of vocalizations.
--   Do not italicize or apply the Vocalization tag to descriptive vocalizations like “Alarm Call.”
+-   When spelling out onomatopoeic vocalizations, use the “Vocalization” tag (see @sec-edit-three) to italicize them (e.g., *Chuk* call). **Do not** use quotation marks around such descriptions of vocalizations.
+-   Do not italicize or apply the Vocalization tag to descriptive vocalizations like Alarm Call.
 
 ## Referring to Geographic Locations {#sec-app4-geographic}
 
