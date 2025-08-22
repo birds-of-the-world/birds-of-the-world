@@ -32,7 +32,7 @@ Before submitting the Draft Completion Form ([English](https://forms.gle/e6uTR5E
 
     -   For species other than the focal species, provide the scientific name and link to the BOW account the first time the species is named in each section of the account. For subsequent mentions of that species in the same section, use the common name only. For short pages, you may provide the scientific name and link only the first time the species is named on the page (rather than in each section).
 
--   Do not use an *s* or *‘s* after a species tag to make the species name plural or possessive, respectively. Our translation process does not support this. Instead, reframe the sentence to use the singular of the species’ name.
+-   Do not use an s or ‘s after a species tag to make the species name plural or possessive, respectively. Our translation process does not support this. Instead, reframe the sentence to use the singular of the species’ name.
 
 -   Ensure that the focal species is mentioned at the beginning of each page. Avoid beginning a page or section with “It,” as it should first be made clear that “it” refers to the focal species.
 
