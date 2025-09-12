@@ -14,6 +14,8 @@ editor_options:
 
 -   **Alar tract:** All the feathering on the wing, including the remiges and their coverts on the upper sides and undersides but not the scapulohumeral tract, from which it is separated by the humeral apterium.
 
+-   **Allopatric:** Describes taxa that occur in different locations and whose ranges do not overlap.
+
 -   **Alternate plumage:** The name of the second plumage when there are two plumages per plumage cycle. The first plumage (i.e., the basic plumage) usually is a more complete molt and usually results in a plumage that is less brightly/conspicuously colored than alternate plumage. May be numbered first, second, etc., to designate changes in color and molt pattern until the definitive stage is reached. Acquired by a prealternate molt that usually replaces only body feathers, not remiges and rectrices.
 
 -   **Altricial:** The character of a young bird that is helpless when hatched and requires considerable rearing before it can leave the nest. Upon hatching, such a nestling is either naked or sparsely downy, and its eyes are closed.
@@ -252,6 +254,8 @@ editor_options:
 
 -   **Pamprodactyl:** The arrangement of the toes in which all four are in front, the hallux being turned forward, as in swifts.
 
+-   **Parapatric:** Describes taxa whose ranges are adjacent but do not overlap significantly.
+
 -   **Pelagic:** The zone of the deep ocean, beyond the continental slope.
 
 -   **Pennaceous:** Feathers in which the barbs of each vane are parallel and interlocked with one another via barbules on adjacent barbs, i.e., typical body feathers.
@@ -358,9 +362,13 @@ editor_options:
 
 -   **Supplemental Plumage:** The name of any plumage that occurs in a plumage cycle in addition to the basic and alternate plumages (i.e., it is not homologous to either basic or alternate plumage). It may precede or follow the alternate plumage. Acquired by a Presupplemental Molt.
 
+-   **Syllable:** A repeated unit in a song. If using this term, define it unambiguously.
+
+-   **Sympatric:** Describes taxa that occur in the same location.
+
 -   **Syndactyl:** The arrangement of the toes in which the third (middle) and fourth (outer) are partly united with a single broad sole, as in kingfishers.
 
--   **Syllable:** A repeated unit in a song. If using this term, define it unambiguously.
+-   **Syntopic:** Describes taxa that occur in the same habitat at the same time; this term is often used for closely related species.
 
 -   **Taiga:** Northern, dense, predominantly coniferous forest, little disturbed or dissected and often containing swampy areas. Occupies the broad belt south of the tundra in upper mid-latitudes.
 
