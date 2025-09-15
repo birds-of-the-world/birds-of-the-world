@@ -8,7 +8,7 @@ editor_options:
 
 ## Overview {#sec-content-overview}
 
-BOW accounts are intended to provide comprehensive, up-to-date summaries of the known biology of all birds. The taxonomy of this series follows [eBird/Clements](https://www.birds.cornell.edu/clementschecklist/) and closely matches the North American and South American Classification and Nomenclature Committees. 
+BOW accounts are intended to provide comprehensive, up-to-date summaries of the known biology of all birds. The taxonomy of this series follows [eBird/Clements](https://www.birds.cornell.edu/clementschecklist/) and closely matches those of the North American and South American Classification and Nomenclature Committees. 
 
 These accounts should be written so as to stimulate new studies by indicating gaps in our present knowledge of species. In other words, BOW accounts should be “one-stop shopping” for individuals who are seeking a summary of what we know—and don’t know—about a species’ biology and suggestions on where to go for further details (i.e., through the references cited). Accounts are geared toward ornithologists and those with advanced interests in bird biology. As a result, they should also prove useful to wildlife biologists, scientists in other disciplines who study birds, avocational enthusiasts interested in avian ecology and behavior, biology teachers and students, land managers, and researchers who assess environmental impacts, among others. 
 
