@@ -316,7 +316,7 @@ Habitat categories and subcategories defined by Campbell et al. (2021) in the bo
 
 ### [Movements and Migration (introduction)]{style="color:blue;"} {#sec-app3-movements-intro}
 
-A brief, general statement of the species’ annual movements (or lack thereof) and any points of special note.
+A brief, general statement of the species’ annual movements (or lack thereof) and any points of special note. Avoid citations in this section.
 
 ### [Dispersal and Site Fidelity]{style="color:blue;"} {#sec-app3-movements-dispersal}
 
