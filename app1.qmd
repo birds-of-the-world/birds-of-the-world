@@ -81,7 +81,7 @@ This framework ensures that BOW maintains its scientific integrity and timelines
 
 ## 5. BOW Content Standards {#sec-app1-content}
 
-BOW maintains rigorous academic and professional standards for all content. Plagiarism, copyright violations, or the use of content that has been generated via artificial intelligence (AI) are not permissible (also see the [BOW AI Policy](https://birdsoftheworld.org/bow/support/ai-policy)). Content should be objective and unbiased and should rely upon published information whenever possible.
+BOW maintains rigorous academic and professional standards for all content. Plagiarism, copyright violations, or the use of content that has been generated via artificial intelligence (AI) is not permissible (also see the [BOW AI Policy](https://birdsoftheworld.org/bow/support/ai-policy)). Content should be objective and unbiased and should rely upon published information whenever possible.
 
 BOW maintains strict ethical standards and has zero tolerance for:
 
