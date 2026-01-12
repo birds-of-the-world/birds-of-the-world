@@ -578,7 +578,7 @@ Divide information in this section into Global Assessment (i.e., by the IUCN Red
 
 ### [Effects of Human Activity]{style="color:blue;"} {#sec-app3-conservation-effects}
 
-Most of the subsections in this section (see [Appendix 2](https://birds-of-the-world.github.io/birds-of-the-world/app2.html)) are self-explanatory. If there are population-level effects of human hunting pressure, discuss those under Hunting, Trapping, and Bycatch. The economic aspects and drivers of hunting by humans, as well as hunting on a small enough scale that it does not impact populations, should be discussed under Economic and Utilitarian Significance on the Relationship with Humans page. “Collisions” includes birds striking lighthouses and other tall buildings, electrical wires, TV towers, and windows, as well as being hit by cars, planes, boats, etc. 
+Most of the subsections in this section (see [Appendix 2](https://birds-of-the-world.github.io/birds-of-the-world/app2.html)) are self-explanatory. If there are population-level effects of human hunting pressure, discuss those under Hunting, Trapping, and Bycatch. The economic aspects and drivers of hunting by humans, as well as hunting on a small enough scale that it does not impact populations, should be discussed under Economic and Utilitarian Significance on the Relationships with People page. “Collisions” includes birds striking lighthouses and other tall buildings, electrical wires, TV towers, and windows, as well as being hit by cars, planes, boats, etc. 
 
 For each appropriate subsection for which there is information, describe the locations and times of year and manner in which the mortality occurs, and the number of individuals killed, if known. If a subsection has been discussed in another section, refer the reader there and briefly summarize, but do not repeat, all of the information here.
 
@@ -586,11 +586,11 @@ For each appropriate subsection for which there is information, describe the loc
 
 Most of the subsections (see [Appendix 2](https://birds-of-the-world.github.io/birds-of-the-world/app2.html)) in this section are self-explanatory. For Conservation Areas, list and discuss the protected areas used by the species. If there are too many areas to list them all, focus on the largest, most important, or otherwise most relevant areas. You may also wish to discuss areas inhabited by the species that have not yet been protected but would benefit from protection.
 
-## [RELATIONSHIP WITH HUMANS]{style="color:purple;"} {#sec-app3-humans}
+## [RELATIONSHIPS WITH PEOPLE]{style="color:purple;"} {#sec-app3-humans}
 
-### [Relationship with Humans (introduction)]{style="color:blue;"} {#sec-app3-humans-intro}
+### [Relationships with People (introduction)]{style="color:blue;"} {#sec-app3-humans-intro}
 
-A general summation of the species’ relationship with humans and brief mention of any points of special note. Avoid citations in this section.
+A general summation of the species’ relationships with people and brief mention of any points of special note. Avoid citations in this section.
 
 ### [Vernacular Names]{style="color:blue;"} {#sec-app3-humans-vernacular}
 

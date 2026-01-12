@@ -260,7 +260,7 @@ As discussed in the @sec-content-structure section, contributors have some flexi
     -   Conservation Measures and Habitat Management
     -   Effectiveness of Measures
 
-## [RELATIONSHIP WITH HUMANS]{style="color:purple;"} {#sec-app2-humans}
+## [RELATIONSHIPS WITH PEOPLE]{style="color:purple;"} {#sec-app2-humans}
 
 -   @sec-app3-humans-intro
 -   @sec-app3-humans-vernacular
