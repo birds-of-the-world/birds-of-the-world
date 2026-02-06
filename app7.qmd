@@ -75,7 +75,7 @@ We also invite you to peruse the Macaulay Library (<http://macaulaylibrary.org>)
 
 ## Audio {#sec-intro-audio}
 
-### Submitting Your Own Audtio {#sec-intro-audio-own}
+### Submitting Your Own Audio {#sec-intro-audio-own}
 
 Audio should be added following the same guidelines as images.
 
