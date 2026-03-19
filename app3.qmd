@@ -592,9 +592,9 @@ Most of the subsections (see [Appendix 2](https://birds-of-the-world.github.io/b
 
 A general summation of the species’ relationships with people and brief mention of any points of special note. Avoid citations in this section.
 
-### [Vernacular Names]{style="color:blue;"} {#sec-app3-humans-vernacular}
+### [Common Names]{style="color:blue;"} {#sec-app3-humans-vernacular}
 
-List vernacular names for a given species that are used within its range, ordered alphabetically by language, and discuss their etymology and usage. [Avibase](https://avibase.bsc-eoc.org/avibase.jsp?lang=EN) is an excellent starting place to look for such names. Also mention other regularly/widely used common names for either the same taxonomic arrangement or other widely recognized arrangements, e.g., in regional field guides and other major checklists. One of the main aims should be to eliminate confusion in the minds of readers that is promoted by using different vernacular names.
+List common names for a given species that are used within its range, ordered alphabetically by language, and discuss their etymology and usage. [Avibase](https://avibase.bsc-eoc.org/avibase.jsp?lang=EN) is an excellent starting place to look for such names. Also mention other regularly/widely used common names for either the same taxonomic arrangement or other widely recognized arrangements, e.g., in regional field guides and other major checklists. One of the main aims should be to eliminate confusion in the minds of readers that is promoted by using different common names.
 
 **Note:** It is not necessary to provide information concerning the etymology of the scientific names, as information from James Jobling’s *Dictionary of Scientific Bird Names* is available by clicking the “i” icon next to the species’ name at the top of the page. If you would like to include information on scientific names that is not provided by Jobling, please add it to the @sec-app3-systematics-history section.
 
