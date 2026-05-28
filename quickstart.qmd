@@ -4,7 +4,7 @@ editor_options:
   chunk_output_type: console
 ---
 
-# QuickStart Guide for BOW Editing and Reviewing {.unnumbered}
+# QuickStart Guide to Accessing an Account {.unnumbered}
 
 To edit or review an account, you will be working with a draft account for your species that is not visible to the general public. The steps below are a quick guide to help you access and edit (if applicable) the draft for your account:
 

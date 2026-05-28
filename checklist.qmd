@@ -4,58 +4,59 @@ editor_options:
   chunk_output_type: console
 ---
 
-# Draft Submission Checklist {#sec-checklist .unnumbered}
+# QuickStart Guide to a BOW Revision {#sec-checklist .unnumbered}
 
-Before submitting the Draft Completion Form ([English](https://forms.gle/e6uTR5E8Z5aXXc9n6), [Spanish](https://forms.gle/4e3PifYqvKrbQ1tV8)), please ensure that you do the following:
+Please see below for an important overview of the BOW revision process. Details on these items are available at the various links to relevant sections of the BOW Contributor Guidelines.
 
--   If completing a full revision, attempt to include information for all relevant sections of the account (see [Appendix 2](https://birds-of-the-world.github.io/birds-of-the-world/app2.html) for a list of sections and [Appendix 3](https://birds-of-the-world.github.io/birds-of-the-world/app3.html) for guidance on each section).
+**To expedite the editorial review and publication process, we ask all BOW contributors to please adhere to these guidelines to ensure consistency across species accounts. [Please note that account drafts that do not follow these guidelines may be returned to the author(s) for additional work.]{.underline}**
 
--   Check the Additional References on the References page of the account for any sources you might have missed during your literature search. This is especially important for accounts originally published in HBW since these typically did not involve an exhaustive survey of the literature.
+## General {#sec-checklist-general}
 
--   Cite all statements in the account with a “reference tag” (see @sec-edit-five), or note if the source of that statement is unpublished data, a personal observation, a personal communication, or an observation from eBird or a similar project (see @sec-content-grammar-references).
+-   Your revision will be built on an existing account that **might not follow current BOW style and formatting conventions**, so be sure to follow the instructions in these guidelines rather than emulating the style of the original text found in your draft.
+-   Be sure to **set your BOW language to English** in the top right-hand corner before working on your draft. Text should not be added to drafts in other languages at this time.
 
-    -   Exception: Avoid using references in the Introduction unless you are providing a quotation or information that is not included elsewhere in the account.
+## Content {#sec-checklist-content}
 
-    -   If no published information is available, please note “Information needed.”
+-   A BOW account is divided into [**pages, sections, and subsections**](https://birds-of-the-world.github.io/birds-of-the-world/content.html#sec-content-structure). Pages and sections are automatically included in the account's structure. You will need to add subsections to each section yourself, as appropriate. You can edit the account one section at a time.
+-   **Do not assume that information already in a draft is in the correct section or subsection.** Account structure has changed over time, and **the current structure is described in [Appendix 2](https://birds-of-the-world.github.io/birds-of-the-world/app2.html)** (list of sections and subsections) **and [Appendix 3](https://birds-of-the-world.github.io/birds-of-the-world/app3.html)** (explanation of sections and subsections).
+-   The vast majority of information in an account, or to be added in a revision, can be placed **under an existing subsection (see [Appendix 2](https://birds-of-the-world.github.io/birds-of-the-world/app2.html))**. Remember that you can also use the search box to check [Appendix 3](https://birds-of-the-world.github.io/birds-of-the-world/app3.html) for a specific topic to see where in the account it should be discussed.
+-   **For a [full revision](https://birds-of-the-world.github.io/birds-of-the-world/background.html#sec-background-full), we expect authors to consider whether information is available for all section and subsection headings.**
+-   When adding subsection headings, use the [**Heading 1 text style**](https://birds-of-the-world.github.io/birds-of-the-world/edit.html#sec-edit-three).
+-   **Please do not repeat information in detail in multiple places within the account.** Instead, describe the information in the most relevant part of the BOW account. In other parts of the account, **simply [link the reader](https://birds-of-the-world.github.io/birds-of-the-world/edit.html#sec-edit-three) to the page or section with detailed coverage** of the topic (e.g., see [Breeding: Eggs](https://birdsoftheworld.org/bow/species/eurgri1/cur/breeding#eggs)).
+-   If a section (i.e., a part of the account with its own “Edit Revision” button) does not apply to your species (e.g., Migratory Behavior for a sedentary species), **simply leave it blank**. Any sections lacking text will **not** appear in the published account.
+-   If you cannot find information on a given topic that should or might apply to your species, the section or subsection should say **Information is needed** (e.g., [here](https://birdsoftheworld.org/bow/species/bkfibi1/cur/breeding#eggs)). If all subsections in a section would say Information is needed, you do not need to list each subsection heading; simply write Information is needed one time (e.g., [here](https://birdsoftheworld.org/bow/species/bkfibi1/cur/breeding#hatch)).
+-   The introductory sections on most pages of an account are now used for optional **brief summaries** of the information on that page, like abstracts, **with no citations**. Anything marked with “(introduction)” in [Appendix 2](https://birds-of-the-world.github.io/birds-of-the-world/app2.html) falls into this category. If your account draft contains information **only** in this introductory section, it has likely been carried over from one of BOW’s source projects and **should be moved into the relevant sections** farther down the page.
+-   All text must be your own synthesis of the information you have read, in your own words. **Text that has been copied from another source (or taken from another source and only lightly edited) constitutes plagiarism and is not permitted by [BOW content standards](https://birds-of-the-world.github.io/birds-of-the-world/app1.html#sec-app1-content).** Note that this also applies to one’s own work if it has been published elsewhere.
+-   **The use of generative AI to create content is not permitted by [BOW content standards](https://birds-of-the-world.github.io/birds-of-the-world/app1.html#sec-app1-content).**
+-   For consistency and clarity, each BOW account **must follow eBird/Clements taxonomy**, as outlined in the account. For example, the **account needs to align with the subspecies listed on the Subspecies page**. Nonetheless, you may discuss alternate taxonomies or provide a literature-based assessment of the validity of the current taxonomic structure. If you would like to recommend changes to species or subspecies in a future taxonomic update, please contact the editorial team for more information.
+-   When discussing subspecies in any section, please follow the order in which they are listed in the Subspecies section.
 
-    -   If you are preparing a full revision but did not evaluate a section, please note “This section was not evaluated.”
+## References {#sec-checklist-references}
 
--   Format all new references that you have added according to BOW style (see [Appendix 5](https://birds-of-the-world.github.io/birds-of-the-world/app5.html)). 
+-   A critical feature of a BOW account is its **citations to [primary literature](https://birds-of-the-world.github.io/birds-of-the-world/content.html#sec-content-sources) for each claim made in the text**. Ensure that you are using primary sources whenever possible. If consulting a book with its own reference list, please consult those cited sources first, citing the book itself only for unique information that cannot be tied to a primary source. Websites and blog posts are typically **not** appropriate to cite.
+-   Other types of citations like **personal observations, unpublished data, and eBird checklists** may be cited when needed. Please format these citations according to the instructions [here](https://birds-of-the-world.github.io/birds-of-the-world/content.html#sec-content-grammar-references).
+-   **All citations must be linked to the BOW master bibliography via [reference tags](https://birds-of-the-world.github.io/birds-of-the-world/edit.html#sec-edit-five).** Begin by searching the bibliography for the relevant source. If there is an existing bibliography entry for a given source, select it even if its formatting is wrong; the formatting will be corrected by an editor during the review process. If the source has not yet been added to BOW, create a new reference entry yourself following [BOW style](https://birds-of-the-world.github.io/birds-of-the-world/app5.html). Please add the DOI whenever possible to sources that you create yourself.
+-   Within a set of parentheses, **order references chronologically** (and then alphabetically if multiple sources share the same publication year). Treat each yellow reference tag like a word—**add a space** after the comma following the reference tag.
+-   Especially for a full revision, be sure to **check the Additional References** on the References page of the account for any sources you might have missed during your literature search.
+-   Note that **the [Introduction](https://birds-of-the-world.github.io/birds-of-the-world/app3.html#sec-app3-intro) generally should not contain references**, as all information there should be described in more detail and cited elsewhere in the account.
 
--   Scan through the Literature Cited on the References page for any duplicated references (ordering the references alphabetically can be helpful) and replace as needed in the account text (see @sec-edit-five).
+## Style and Formatting {#sec-checklist-style}
 
--   Ensure that any headings (e.g., text formatted as Heading 1 or Heading 2) are not bolded.
+-   **Please write in complete sentences**—do not leave out any words to save space. (Note that the original text in your draft might need to be expanded to match this convention.)
+-   Use [**American English**](https://birds-of-the-world.github.io/birds-of-the-world/app4.html#sec-app4-language) **spellings**.
+-   BOW relies on what we call species tags for every mention of a bird species. These tags allow names to be displayed according to a user’s eBird preference, ensure that all authors are using the same taxonomy, and help to automate changes during taxonomic updates. **Please [insert species tags](https://birds-of-the-world.github.io/birds-of-the-world/app4.html#sec-app4-species) using the Species Name button in the toolbar every time a bird is mentioned.** The default setting is **common name only**, but please use both the common name and the scientific name **and** add an HTML link to the relevant species’ page the first time a species other than the focal species is mentioned per section of the account (or per page if the page is short).
+-   As a matter of style, **BOW refers to birds in the singular** (e.g., “The Belted Kingfisher eats” rather than “Belted Kingfishers eat” or “The male has a black cap” rather than “Males have black caps”).
+-   **Scientific names** for subspecies or for species other than birds should be italicized with the [**Sci Name button**](https://birds-of-the-world.github.io/birds-of-the-world/app4.html#sec-app4-species) on the toolbar. **Descriptions of vocalizations** should be italicized with the [**Vocalization button**](https://birds-of-the-world.github.io/birds-of-the-world/app4.html#sec-app4-vocalizations) on the toolbar. This will ensure that they are not translated upon publication of the account.
+-   Do not capitalize common names of species other than birds.
+-   The first time per section (or per page if the page is short) that a [geographic location](https://birds-of-the-world.github.io/birds-of-the-world/app4.html#sec-app4-geographic) is mentioned, provide the country.
+-   Any number following a ± symbol needs to be specified as the [**SD or SE**](https://birds-of-the-world.github.io/birds-of-the-world/app4.html#sec-app4-statistics) (e.g., 121.4 mm ± 1.02 SE).
+-   [Abbreviations](https://birds-of-the-world.github.io/birds-of-the-world/app4.html#sec-app4-abbreviations) generally should **not** be used except for SI units (e.g., use “personal observation” not “pers. obs.” and “northeast” not “NE”).
 
--   Use “species tags” for all references to bird names (see @sec-app4-species).
+## When You Are Finished {#sec-checklist-finished}
 
-    -   For the focal species, use the common name only (except when use of the scientific name is more helpful, such as on some parts of the Systematics page).
+-   **Submit the Draft Completion Form** ([English](https://forms.gle/e6uTR5E8Z5aXXc9n6), [Spanish](https://forms.gle/4e3PifYqvKrbQ1tV8)).
+-   The [editorial review period](https://birds-of-the-world.github.io/birds-of-the-world/background.html#sec-background-timeline) **may take several months** (longer if the draft is submitted during the annual taxonomic update, approximately August–October). Thank you for your patience as the editorial team evaluates the draft for adherence to BOW content and formatting standards.
+-   An editor will likely **send you some questions/comments about the draft** for you to address before publication.
+-   **Authorship may not be updated** in the draft itself until the later stages of the editorial review period, when all contributions to the draft have been finalized.
 
-    -   For species other than the focal species, provide the scientific name and link to the BOW account the first time the species is named in each section of the account. For subsequent mentions of that species in the same section, use the common name only. For short pages, you may provide the scientific name and link only the first time the species is named on the page (rather than in each section).
-
--   Do not use an s or 's after a species tag to make the species name plural or possessive, respectively. Our translation process does not support this. Instead, reframe the sentence to use the singular of the species’ name.
-
--   Ensure that the focal species is mentioned at the beginning of each page. Avoid beginning a page or section with “It,” as it should first be made clear that “it” refers to the focal species.
-
--   Use lowercase for common names of nonbird species (but still capitalize proper nouns, e.g., Central American, European).
-
--   Ensure that information in the first section on each page (i.e., the section that does not have a heading and is labeled “(introduction)” in [Appendix 2](https://birds-of-the-world.github.io/birds-of-the-world/app2.html)) provides a general summary of the information on the page without repeating details given below. Avoid using citations in this section unless you provide information that does appear elsewhere on the page (this should be rare).
-
--   For all quantitative data, specify which measures are provided (e.g., mean, median, SD, or SE) or how a given measurement was taken (e.g., exposed culmen). Any number following a ± symbol needs to be specified as the SD or SE (e.g., 121.4 mm ± 1.02 SE). If this information is not reported in the original source, indicate that it is unspecified.
-
--   Verify that any figures, media, and/or tables were prepared as per BOW standards (see [Appendix 7](https://birds-of-the-world.github.io/birds-of-the-world/app7.html)).
-
-    -   If any part of the draft was previously published in another context, please obtain or ensure sharing permissions to republish it.
-
--   Check any link-outs in the text and remove any that are no longer functional.
-
--   Follow American English conventions for spelling (e.g., "gray" instead of "grey") and punctuation (e.g., use the serial or Oxford comma) (see [Appendix 4](https://birds-of-the-world.github.io/birds-of-the-world/app4.html)).
-
--   Use complete sentences of reasonable length to help make the account easy to read.
-
--   Read over the draft for grammar, spelling, and referencing.
-
--   Finalize a suggested author order (to be specified on the Draft Completion Form).
-
--   Verify that all contributors have recently (within the last two years) signed and submitted a [Contributor Agreement](https://drive.google.com/file/d/1Arz8mqAamqQFlIfV2zNJFQbbB5Y0D4Ug/view?usp=sharing) to BOW staff.
-
--   Fill out and submit the Draft Completion Form.
+**Thank you for your attention to these important conventions. Please consult the [QuickStart Guide to Accessing an Account](https://birds-of-the-world.github.io/birds-of-the-world/quickstart.html) on the next page to begin working on your species account draft.**

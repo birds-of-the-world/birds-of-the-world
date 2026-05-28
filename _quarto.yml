@@ -6,8 +6,8 @@ book:
   title: "<em>Birds of the World</em> Contributor Guidelines"
   chapters:
     - index.qmd
-    - quickstart.qmd
     - checklist.qmd
+    - quickstart.qmd
     - background.qmd
     - content.qmd
     - edit.qmd
