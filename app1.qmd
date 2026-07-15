@@ -53,6 +53,7 @@ When contacting contributors who have requested notification, BOW staff will use
 Active status may be lost if:
 
 -   The Contributor Information Form expires without renewal
+-   The contributor does not have a valid Contributor Agreement on file
 -   Communications from BOW staff go unanswered for more than two weeks
 -   No meaningful progress is shown on drafts for one year
 -   Professional conduct standards are violated
